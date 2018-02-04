@@ -1,0 +1,2119 @@
+*Heading
+ Units: millimetres(mm)
+*NODE
+1,2.022667,1.171667,0.049333
+2,2.133667,1.270333,0.037000
+3,0.962000,0.592000,0.074000
+4,1.307333,1.122333,0.098667
+5,1.591000,1.184000,0.074000
+6,2.220000,0.074000,0.111000
+7,1.973333,0.197333,0.111000
+8,0.185000,1.233333,0.123333
+9,1.073000,0.360750,0.185000
+10,0.962000,0.999000,0.197333
+11,1.702000,1.147000,0.148000
+12,2.146000,2.035000,0.148000
+13,1.073000,2.442000,0.148000
+14,1.615667,2.479000,0.160333
+15,1.951750,0.175750,0.194250
+16,1.184000,0.333000,0.185000
+17,0.888000,0.888000,0.185000
+18,1.813000,1.110000,0.185000
+19,1.221000,1.147000,0.185000
+20,0.259000,1.184000,0.185000
+21,0.777000,1.184000,0.185000
+22,1.452250,2.469750,0.222000
+23,2.479000,1.110000,0.222000
+24,2.787333,1.196333,0.246667
+25,2.007250,2.405000,0.259000
+26,1.813000,2.442000,0.222000
+27,1.147000,2.479000,0.222000
+28,0.240500,1.091500,0.277500
+29,1.307333,1.159333,0.271333
+30,1.387500,0.203500,0.314500
+31,1.665000,0.231250,0.333000
+32,2.553000,1.110000,0.296000
+33,1.332000,2.516000,0.296000
+34,1.893167,0.209667,0.400833
+35,0.123333,1.097667,0.345333
+36,2.220000,0.621600,0.407000
+37,1.961000,0.999000,0.370000
+38,2.775000,1.147000,0.370000
+39,2.442000,1.813000,0.370000
+40,2.294000,2.016500,0.388500
+41,1.319667,0.135667,0.419333
+42,0.616667,0.690667,0.419333
+43,0.629000,0.814000,0.407000
+44,0.838667,1.011333,0.419333
+45,2.479000,0.925000,0.485625
+46,2.738000,1.554000,0.407000
+47,0.940235,2.252647,0.478824
+48,2.072000,0.074000,0.444000
+49,0.703000,0.555000,0.444000
+50,0.629000,0.888000,0.444000
+51,0.419333,0.937333,0.456333
+52,2.035000,0.954600,0.481000
+53,2.701000,1.073000,0.444000
+54,0.782286,1.206464,0.516679
+55,2.886000,1.369000,0.444000
+56,2.553000,1.739000,0.444000
+57,0.962000,1.739000,0.481000
+58,0.986667,2.022667,0.493333
+59,2.355667,2.059667,0.505667
+60,0.666000,0.481000,0.518000
+61,2.284750,0.573500,0.536500
+62,2.146000,0.888000,0.518000
+63,2.183000,2.368000,0.518000
+64,1.998000,0.296000,0.555000
+65,1.813000,0.185000,0.592000
+66,0.172667,1.430667,0.592000
+67,2.257000,2.368000,0.592000
+68,0.777000,2.553000,0.629000
+69,2.257000,0.444000,0.658600
+70,0.974333,1.110000,0.641333
+71,0.394667,1.529333,0.641333
+72,1.036000,2.183000,0.629000
+73,1.979500,2.405000,0.647500
+74,0.666000,2.553000,0.629000
+75,1.628000,2.553000,0.629000
+76,1.036000,0.111000,0.666000
+77,2.368000,0.518000,0.666000
+78,2.378571,2.241143,0.697714
+79,2.220000,0.111000,0.740000
+80,1.036000,1.063133,0.791800
+81,2.867500,1.702000,0.758500
+82,2.682500,1.831500,0.758500
+83,0.518000,2.553000,0.740000
+84,0.703000,2.538200,0.762200
+85,2.183000,0.197333,0.814000
+86,0.851000,0.222000,0.777000
+87,0.740000,0.333000,0.777000
+88,0.456333,0.394667,0.777000
+89,2.386500,0.444000,0.795500
+90,2.590000,1.924000,0.777000
+91,2.405000,2.405000,0.777000
+92,2.627000,0.111000,0.814000
+93,1.687200,0.851000,0.851000
+94,1.406000,0.934250,0.851000
+95,0.703000,1.443000,0.814000
+96,2.479000,2.072000,0.814000
+97,0.616667,1.541667,0.863333
+98,2.553000,1.998000,0.851000
+99,1.152286,2.346857,0.898571
+100,2.479000,0.547600,0.947200
+101,1.406000,2.368000,0.888000
+102,2.429667,0.345333,0.925000
+103,1.110000,0.999000,0.925000
+104,0.419333,0.407000,0.986667
+105,1.252714,2.193571,1.004286
+106,2.257000,0.185000,0.999000
+107,0.518000,0.444000,0.999000
+108,1.628000,2.294000,0.999000
+109,2.590000,0.740000,1.110000
+110,1.017500,2.016500,1.110000
+111,1.714333,2.269333,1.134667
+112,1.082250,2.405000,1.147000
+113,2.127500,2.386500,1.110000
+114,0.826333,1.726667,1.171667
+115,2.220000,2.331000,1.147000
+116,0.826333,2.516000,1.171667
+117,0.493333,1.702000,1.208667
+118,1.110000,2.072000,1.184000
+119,2.466667,2.072000,1.208667
+120,2.331000,0.111000,1.221000
+121,2.590000,0.851000,1.221000
+122,1.862333,2.380333,1.233333
+123,2.923000,2.590000,1.221000
+124,0.962000,1.184000,1.258000
+125,0.592000,1.739000,1.258000
+126,2.627000,2.007250,1.295000
+127,1.270333,2.133667,1.270333
+128,2.257000,2.146000,1.258000
+129,2.849000,2.590000,1.258000
+130,2.257000,0.111000,1.295000
+131,0.296000,0.407000,1.332000
+132,0.320667,1.652667,1.356667
+133,0.111000,0.518000,1.369000
+134,0.666000,1.813000,1.369000
+135,2.812000,1.998000,1.369000
+136,1.332000,2.109000,1.369000
+137,0.999000,2.590000,1.369000
+138,0.666000,2.553000,1.406000
+139,1.184000,2.553000,1.406000
+140,1.406000,2.183000,1.443000
+141,1.887000,0.111000,0.037000
+142,1.147000,0.370000,0.037000
+143,0.999000,0.407000,0.037000
+144,0.851000,0.555000,0.037000
+145,1.591000,0.925000,0.037000
+146,1.332000,0.962000,0.037000
+147,1.591000,2.331000,0.037000
+148,1.036000,2.368000,0.037000
+149,0.148000,1.147000,0.074000
+150,2.775000,1.147000,0.074000
+151,1.887000,0.037000,0.111000
+152,1.406000,2.442000,0.111000
+153,2.331000,0.925000,0.148000
+154,2.627000,0.925000,0.148000
+155,2.960000,1.147000,0.148000
+156,0.111000,1.295000,0.148000
+157,2.516000,0.037000,0.185000
+158,1.628000,0.185000,0.185000
+159,1.184000,0.740000,0.185000
+160,0.629000,1.036000,0.185000
+161,2.035000,1.998000,0.185000
+162,0.999000,2.331000,0.185000
+163,2.294000,0.037000,0.222000
+164,0.814000,0.814000,0.222000
+165,1.739000,2.368000,0.222000
+166,1.073000,0.259000,0.259000
+167,1.110000,0.777000,0.259000
+168,2.627000,0.999000,0.259000
+169,1.369000,0.111000,0.296000
+170,1.961000,0.259000,0.296000
+171,0.259000,0.999000,0.296000
+172,1.295000,1.258000,0.296000
+173,2.220000,0.074000,0.333000
+174,2.331000,1.702000,0.333000
+175,1.887000,2.331000,0.370000
+176,1.369000,0.037000,0.407000
+177,2.220000,0.037000,0.407000
+178,2.331000,0.407000,0.407000
+179,2.183000,0.518000,0.407000
+180,1.924000,1.147000,0.407000
+181,0.777000,0.407000,0.444000
+182,0.111000,2.590000,0.444000
+183,0.518000,0.777000,0.518000
+184,1.258000,0.962000,0.518000
+185,1.776000,0.999000,0.518000
+186,2.479000,1.110000,0.518000
+187,0.185000,1.295000,0.518000
+188,1.036000,1.665000,0.518000
+189,0.555000,0.370000,0.592000
+190,0.370000,0.518000,0.592000
+191,2.405000,1.110000,0.592000
+192,1.073000,1.924000,0.592000
+193,0.777000,2.442000,0.592000
+194,2.368000,0.037000,0.629000
+195,1.850000,0.111000,0.629000
+196,2.035000,0.148000,0.629000
+197,1.110000,1.110000,0.629000
+198,1.887000,2.294000,0.629000
+199,0.592000,2.405000,0.629000
+200,2.553000,1.776000,0.666000
+201,0.037000,0.037000,0.740000
+202,2.664000,0.074000,0.740000
+203,0.370000,0.222000,0.740000
+204,2.627000,0.259000,0.740000
+205,0.851000,0.444000,0.740000
+206,2.479000,1.998000,0.740000
+207,1.369000,0.037000,0.777000
+208,2.035000,0.074000,0.777000
+209,2.331000,0.370000,0.777000
+210,1.332000,0.851000,0.777000
+211,2.257000,0.888000,0.777000
+212,0.925000,0.962000,0.777000
+213,2.627000,1.739000,0.777000
+214,0.777000,0.111000,0.814000
+215,2.368000,0.370000,0.851000
+216,0.518000,1.628000,0.851000
+217,2.294000,2.294000,0.851000
+218,0.888000,2.516000,0.851000
+219,1.110000,2.146000,0.888000
+220,1.369000,2.146000,0.888000
+221,2.442000,2.516000,0.888000
+222,2.331000,0.222000,0.925000
+223,0.407000,0.333000,0.925000
+224,0.555000,0.333000,0.925000
+225,0.629000,1.554000,0.962000
+226,0.037000,0.444000,0.999000
+227,1.073000,0.851000,0.999000
+228,2.627000,1.184000,0.999000
+229,0.999000,1.850000,0.999000
+230,1.369000,2.109000,0.999000
+231,2.146000,0.370000,1.036000
+232,1.739000,0.999000,1.036000
+233,0.037000,1.517000,1.036000
+234,1.221000,0.888000,1.073000
+235,1.480000,1.036000,1.073000
+236,1.369000,2.109000,1.073000
+237,0.703000,2.442000,1.073000
+238,2.886000,1.924000,1.110000
+239,2.331000,2.257000,1.110000
+240,2.442000,2.553000,1.110000
+241,2.553000,2.257000,1.147000
+242,0.518000,2.553000,1.147000
+243,2.960000,2.553000,1.147000
+244,1.739000,0.111000,1.184000
+245,2.553000,0.925000,1.184000
+246,2.109000,2.257000,1.184000
+247,0.962000,2.331000,1.184000
+248,1.221000,2.516000,1.184000
+249,2.775000,2.590000,1.184000
+250,2.257000,1.961000,1.221000
+251,1.332000,2.035000,1.221000
+252,0.851000,0.999000,1.258000
+253,1.443000,1.073000,1.258000
+254,0.962000,1.369000,1.258000
+255,0.222000,0.333000,1.295000
+256,0.037000,0.407000,1.295000
+257,2.849000,1.887000,1.295000
+258,1.295000,2.035000,1.295000
+259,0.037000,0.814000,1.332000
+260,0.999000,2.442000,1.332000
+261,1.850000,2.479000,1.332000
+262,1.184000,2.553000,1.332000
+263,2.072000,0.148000,1.369000
+264,0.333000,1.554000,1.369000
+265,0.074000,1.628000,1.369000
+266,1.332000,2.035000,1.369000
+267,0.333000,2.590000,1.369000
+268,0.333000,0.148000,1.443000
+269,2.331000,0.259000,1.443000
+270,2.886000,2.035000,1.443000
+271,1.258000,2.405000,1.443000
+272,2.479000,1.406000,1.480000
+273,0.037000,1.591000,1.480000
+274,2.442000,1.591000,1.480000
+275,1.369000,2.257000,1.480000
+276,0.740000,2.442000,1.480000
+*Element, type=B31
+1,1,36
+2,1,2
+3,1,18
+4,2,23
+5,2,12
+6,3,144
+7,3,9
+8,3,17
+9,4,146
+10,4,19
+11,4,5
+12,5,145
+13,5,11
+14,6,157
+15,6,7
+16,6,163
+17,7,141
+18,7,15
+19,8,149
+20,8,156
+21,8,20
+22,9,143
+23,9,16
+24,9,166
+25,10,159
+26,10,21
+27,10,17
+28,10,167
+29,10,19
+30,10,44
+31,11,29
+32,11,18
+33,12,25
+34,12,161
+35,13,148
+36,13,162
+37,13,27
+38,14,22
+39,14,147
+40,14,26
+41,15,151
+42,15,34
+43,15,173
+44,16,142
+45,16,30
+46,17,164
+47,18,37
+48,19,29
+49,20,21
+50,20,28
+51,21,160
+52,22,152
+53,22,33
+54,23,46
+55,23,32
+56,24,150
+57,24,38
+58,24,155
+59,25,40
+60,25,26
+61,25,175
+62,25,63
+63,26,165
+64,27,47
+65,27,33
+66,28,35
+67,28,171
+68,28,51
+69,29,172
+70,30,31
+71,30,169
+72,30,41
+73,31,158
+74,31,34
+75,31,34
+76,32,154
+77,32,168
+78,32,45
+79,33,47
+80,34,170
+81,34,48
+82,34,65
+83,34,64
+84,35,66
+85,35,51
+86,36,179
+87,36,62
+88,36,61
+89,37,180
+90,37,52
+91,38,53
+92,38,55
+93,39,174
+94,39,56
+95,39,40
+96,40,59
+97,41,76
+98,41,176
+99,42,49
+100,42,43
+101,42,190
+102,43,50
+103,43,183
+104,44,50
+105,44,54
+106,45,53
+107,45,153
+108,45,186
+109,45,61
+110,45,191
+111,46,55
+112,46,56
+113,47,72
+114,47,68
+115,48,177
+116,48,79
+117,49,181
+118,49,60
+119,50,51
+120,52,62
+121,52,185
+122,52,93
+123,53,81
+124,54,184
+125,54,57
+126,54,70
+127,54,71
+128,55,81
+129,56,59
+130,57,188
+131,57,58
+132,58,182
+133,58,192
+134,58,72
+135,59,78
+136,60,76
+137,60,189
+138,61,178
+139,61,77
+140,62,211
+141,63,73
+142,63,67
+143,64,69
+144,64,93
+145,65,195
+146,65,207
+147,66,187
+148,66,71
+149,67,78
+150,67,73
+151,68,193
+152,68,74
+153,68,84
+154,69,77
+155,69,196
+156,69,85
+157,70,197
+158,70,80
+159,71,95
+160,72,99
+161,73,75
+162,73,198
+163,73,108
+164,74,83
+165,74,199
+166,75,99
+167,75,101
+168,76,86
+169,77,89
+170,78,90
+171,78,91
+172,78,96
+173,79,194
+174,79,85
+175,80,95
+176,80,212
+177,80,114
+178,80,94
+179,80,103
+180,80,107
+181,81,82
+182,81,98
+183,82,200
+184,82,90
+185,82,213
+186,83,84
+187,83,84
+188,84,218
+189,85,208
+190,85,244
+191,85,106
+192,86,214
+193,86,87
+194,87,205
+195,87,88
+196,88,203
+197,88,201
+198,89,209
+199,89,215
+200,89,100
+201,90,98
+202,91,217
+203,91,221
+204,92,202
+205,92,204
+206,92,102
+207,93,109
+208,93,94
+209,93,232
+210,94,210
+211,94,235
+212,95,97
+213,96,206
+214,96,98
+215,97,216
+216,97,225
+217,99,219
+218,99,105
+219,99,101
+220,100,102
+221,100,228
+222,100,120
+223,100,109
+224,101,108
+225,102,222
+226,103,227
+227,103,234
+228,104,223
+229,104,226
+230,104,107
+231,105,220
+232,105,112
+233,105,110
+234,105,230
+235,105,236
+236,106,120
+237,106,231
+238,107,224
+239,108,111
+240,109,121
+241,110,229
+242,110,114
+243,110,118
+244,111,140
+245,111,122
+246,112,248
+247,112,116
+248,112,247
+249,113,122
+250,113,246
+251,113,115
+252,113,240
+253,114,125
+254,115,239
+255,115,128
+256,116,237
+257,116,242
+258,117,233
+259,117,132
+260,117,125
+261,118,134
+262,118,127
+263,119,241
+264,119,128
+265,119,126
+266,120,130
+267,121,245
+268,121,272
+269,122,261
+270,123,243
+271,123,129
+272,123,129
+273,124,252
+274,124,253
+275,124,254
+276,125,134
+277,126,238
+278,126,135
+279,126,274
+280,127,251
+281,127,258
+282,127,136
+283,128,250
+284,129,249
+285,130,263
+286,130,269
+287,131,255
+288,131,268
+289,131,133
+290,132,264
+291,132,265
+292,133,256
+293,133,259
+294,134,273
+295,135,257
+296,135,270
+297,136,266
+298,136,140
+299,137,260
+300,137,138
+301,137,139
+302,138,267
+303,138,276
+304,139,262
+305,139,271
+306,140,275
+*Elset, elset=link1, internal, generate
+  1, 1
+** Section: Section-1 Profile: Profile-1
+ *Beam Section, elset =link1, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.13147
+*Elset, elset=link2, internal, generate
+  2, 2
+** Section: Section-2 Profile: Profile-2
+ *Beam Section, elset =link2, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.1035
+*Elset, elset=link3, internal, generate
+  3, 3
+** Section: Section-3 Profile: Profile-3
+ *Beam Section, elset =link3, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.11013
+*Elset, elset=link4, internal, generate
+  4, 4
+** Section: Section-4 Profile: Profile-4
+ *Beam Section, elset =link4, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.12014
+*Elset, elset=link5, internal, generate
+  5, 5
+** Section: Section-5 Profile: Profile-5
+ *Beam Section, elset =link5, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.076468
+*Elset, elset=link6, internal, generate
+  6, 6
+** Section: Section-6 Profile: Profile-6
+ *Beam Section, elset =link6, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.10597
+*Elset, elset=link7, internal, generate
+  7, 7
+** Section: Section-7 Profile: Profile-7
+ *Beam Section, elset =link7, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.076851
+*Elset, elset=link8, internal, generate
+  8, 8
+** Section: Section-8 Profile: Profile-8
+ *Beam Section, elset =link8, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.14242
+*Elset, elset=link9, internal, generate
+  9, 9
+** Section: Section-9 Profile: Profile-9
+ *Beam Section, elset =link9, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.056122
+*Elset, elset=link10, internal, generate
+  10, 10
+** Section: Section-10 Profile: Profile-10
+ *Beam Section, elset =link10, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.092785
+*Elset, elset=link11, internal, generate
+  11, 11
+** Section: Section-11 Profile: Profile-11
+ *Beam Section, elset =link11, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.076569
+*Elset, elset=link12, internal, generate
+  12, 12
+** Section: Section-12 Profile: Profile-12
+ *Beam Section, elset =link12, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.083232
+*Elset, elset=link13, internal, generate
+  13, 13
+** Section: Section-13 Profile: Profile-13
+ *Beam Section, elset =link13, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.11083
+*Elset, elset=link14, internal, generate
+  14, 14
+** Section: Section-14 Profile: Profile-14
+ *Beam Section, elset =link14, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.078496
+*Elset, elset=link15, internal, generate
+  15, 15
+** Section: Section-15 Profile: Profile-15
+ *Beam Section, elset =link15, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.13743
+*Elset, elset=link16, internal, generate
+  16, 16
+** Section: Section-16 Profile: Profile-16
+ *Beam Section, elset =link16, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.096029
+*Elset, elset=link17, internal, generate
+  17, 17
+** Section: Section-17 Profile: Profile-17
+ *Beam Section, elset =link17, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.18529
+*Elset, elset=link18, internal, generate
+  18, 18
+** Section: Section-18 Profile: Profile-18
+ *Beam Section, elset =link18, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.18529
+*Elset, elset=link19, internal, generate
+  19, 19
+** Section: Section-19 Profile: Profile-19
+ *Beam Section, elset =link19, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.098426
+*Elset, elset=link20, internal, generate
+  20, 20
+** Section: Section-20 Profile: Profile-20
+ *Beam Section, elset =link20, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.082915
+*Elset, elset=link21, internal, generate
+  21, 21
+** Section: Section-21 Profile: Profile-21
+ *Beam Section, elset =link21, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.10689
+*Elset, elset=link22, internal, generate
+  22, 22
+** Section: Section-22 Profile: Profile-22
+ *Beam Section, elset =link22, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.082915
+*Elset, elset=link23, internal, generate
+  23, 23
+** Section: Section-23 Profile: Profile-23
+ *Beam Section, elset =link23, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.060353
+*Elset, elset=link24, internal, generate
+  24, 24
+** Section: Section-24 Profile: Profile-24
+ *Beam Section, elset =link24, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.054148
+*Elset, elset=link25, internal, generate
+  25, 25
+** Section: Section-25 Profile: Profile-25
+ *Beam Section, elset =link25, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.12327
+*Elset, elset=link26, internal, generate
+  26, 26
+** Section: Section-26 Profile: Profile-26
+ *Beam Section, elset =link26, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.16343
+*Elset, elset=link27, internal, generate
+  27, 27
+** Section: Section-27 Profile: Profile-27
+ *Beam Section, elset =link27, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.18613
+*Elset, elset=link28, internal, generate
+  28, 28
+** Section: Section-28 Profile: Profile-28
+ *Beam Section, elset =link28, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.14623
+*Elset, elset=link29, internal, generate
+  29, 29
+** Section: Section-29 Profile: Profile-29
+ *Beam Section, elset =link29, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.1524
+*Elset, elset=link30, internal, generate
+  30, 30
+** Section: Section-30 Profile: Profile-30
+ *Beam Section, elset =link30, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.16008
+*Elset, elset=link31, internal, generate
+  31, 31
+** Section: Section-31 Profile: Profile-31
+ *Beam Section, elset =link31, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.075146
+*Elset, elset=link32, internal, generate
+  32, 32
+** Section: Section-32 Profile: Profile-32
+ *Beam Section, elset =link32, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.10385
+*Elset, elset=link33, internal, generate
+  33, 33
+** Section: Section-33 Profile: Profile-33
+ *Beam Section, elset =link33, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.066301
+*Elset, elset=link34, internal, generate
+  34, 34
+** Section: Section-34 Profile: Profile-34
+ *Beam Section, elset =link34, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.052245
+*Elset, elset=link35, internal, generate
+  35, 35
+** Section: Section-35 Profile: Profile-35
+ *Beam Section, elset =link35, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.080588
+*Elset, elset=link36, internal, generate
+  36, 36
+** Section: Section-36 Profile: Profile-36
+ *Beam Section, elset =link36, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.071281
+*Elset, elset=link37, internal, generate
+  37, 37
+** Section: Section-37 Profile: Profile-37
+ *Beam Section, elset =link37, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.074454
+*Elset, elset=link38, internal, generate
+  38, 38
+** Section: Section-38 Profile: Profile-38
+ *Beam Section, elset =link38, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.084818
+*Elset, elset=link39, internal, generate
+  39, 39
+** Section: Section-39 Profile: Profile-39
+ *Beam Section, elset =link39, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.082915
+*Elset, elset=link40, internal, generate
+  40, 40
+** Section: Section-40 Profile: Profile-40
+ *Beam Section, elset =link40, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.091234
+*Elset, elset=link41, internal, generate
+  41, 41
+** Section: Section-41 Profile: Profile-41
+ *Beam Section, elset =link41, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.1341
+*Elset, elset=link42, internal, generate
+  42, 42
+** Section: Section-42 Profile: Profile-42
+ *Beam Section, elset =link42, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.13842
+*Elset, elset=link43, internal, generate
+  43, 43
+** Section: Section-43 Profile: Profile-43
+ *Beam Section, elset =link43, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.088461
+*Elset, elset=link44, internal, generate
+  44, 44
+** Section: Section-44 Profile: Profile-44
+ *Beam Section, elset =link44, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.06244
+*Elset, elset=link45, internal, generate
+  45, 45
+** Section: Section-45 Profile: Profile-45
+ *Beam Section, elset =link45, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.067927
+*Elset, elset=link46, internal, generate
+  46, 46
+** Section: Section-46 Profile: Profile-46
+ *Beam Section, elset =link46, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.14863
+*Elset, elset=link47, internal, generate
+  47, 47
+** Section: Section-47 Profile: Profile-47
+ *Beam Section, elset =link47, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.097056
+*Elset, elset=link48, internal, generate
+  48, 48
+** Section: Section-48 Profile: Profile-48
+ *Beam Section, elset =link48, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.092785
+*Elset, elset=link49, internal, generate
+  49, 49
+** Section: Section-49 Profile: Profile-49
+ *Beam Section, elset =link49, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.10542
+*Elset, elset=link50, internal, generate
+  50, 50
+** Section: Section-50 Profile: Profile-50
+ *Beam Section, elset =link50, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.099554
+*Elset, elset=link51, internal, generate
+  51, 51
+** Section: Section-51 Profile: Profile-51
+ *Beam Section, elset =link51, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.086806
+*Elset, elset=link52, internal, generate
+  52, 52
+** Section: Section-52 Profile: Profile-52
+ *Beam Section, elset =link52, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.083479
+*Elset, elset=link53, internal, generate
+  53, 53
+** Section: Section-53 Profile: Profile-53
+ *Beam Section, elset =link53, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.084818
+*Elset, elset=link54, internal, generate
+  54, 54
+** Section: Section-54 Profile: Profile-54
+ *Beam Section, elset =link54, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.090304
+*Elset, elset=link55, internal, generate
+  55, 55
+** Section: Section-55 Profile: Profile-55
+ *Beam Section, elset =link55, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.12071
+*Elset, elset=link56, internal, generate
+  56, 56
+** Section: Section-56 Profile: Profile-56
+ *Beam Section, elset =link56, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.093237
+*Elset, elset=link57, internal, generate
+  57, 57
+** Section: Section-57 Profile: Profile-57
+ *Beam Section, elset =link57, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.084395
+*Elset, elset=link58, internal, generate
+  58, 58
+** Section: Section-58 Profile: Profile-58
+ *Beam Section, elset =link58, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.10878
+*Elset, elset=link59, internal, generate
+  59, 59
+** Section: Section-59 Profile: Profile-59
+ *Beam Section, elset =link59, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.070308
+*Elset, elset=link60, internal, generate
+  60, 60
+** Section: Section-60 Profile: Profile-60
+ *Beam Section, elset =link60, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.11182
+*Elset, elset=link61, internal, generate
+  61, 61
+** Section: Section-61 Profile: Profile-61
+ *Beam Section, elset =link61, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.087991
+*Elset, elset=link62, internal, generate
+  62, 62
+** Section: Section-62 Profile: Profile-62
+ *Beam Section, elset =link62, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.094231
+*Elset, elset=link63, internal, generate
+  63, 63
+** Section: Section-63 Profile: Profile-63
+ *Beam Section, elset =link63, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.077274
+*Elset, elset=link64, internal, generate
+  64, 64
+** Section: Section-64 Profile: Profile-64
+ *Beam Section, elset =link64, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.082915
+*Elset, elset=link65, internal, generate
+  65, 65
+** Section: Section-65 Profile: Profile-65
+ *Beam Section, elset =link65, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.082915
+*Elset, elset=link66, internal, generate
+  66, 66
+** Section: Section-66 Profile: Profile-66
+ *Beam Section, elset =link66, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.082915
+*Elset, elset=link67, internal, generate
+  67, 67
+** Section: Section-67 Profile: Profile-67
+ *Beam Section, elset =link67, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.070224
+*Elset, elset=link68, internal, generate
+  68, 68
+** Section: Section-68 Profile: Profile-68
+ *Beam Section, elset =link68, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.068701
+*Elset, elset=link69, internal, generate
+  69, 69
+** Section: Section-69 Profile: Profile-69
+ *Beam Section, elset =link69, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.062891
+*Elset, elset=link70, internal, generate
+  70, 70
+** Section: Section-70 Profile: Profile-70
+ *Beam Section, elset =link70, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.078926
+*Elset, elset=link71, internal, generate
+  71, 71
+** Section: Section-71 Profile: Profile-71
+ *Beam Section, elset =link71, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.082915
+*Elset, elset=link72, internal, generate
+  72, 72
+** Section: Section-72 Profile: Profile-72
+ *Beam Section, elset =link72, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.082915
+*Elset, elset=link73, internal, generate
+  73, 73
+** Section: Section-73 Profile: Profile-73
+ *Beam Section, elset =link73, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.082238
+*Elset, elset=link74, internal, generate
+  74, 74
+** Section: Section-74 Profile: Profile-74
+ *Beam Section, elset =link74, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.094759
+*Elset, elset=link75, internal, generate
+  75, 75
+** Section: Section-75 Profile: Profile-75
+ *Beam Section, elset =link75, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.086178
+*Elset, elset=link76, internal, generate
+  76, 76
+** Section: Section-76 Profile: Profile-76
+ *Beam Section, elset =link76, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.10369
+*Elset, elset=link77, internal, generate
+  77, 77
+** Section: Section-77 Profile: Profile-77
+ *Beam Section, elset =link77, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.11358
+*Elset, elset=link78, internal, generate
+  78, 78
+** Section: Section-78 Profile: Profile-78
+ *Beam Section, elset =link78, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.10026
+*Elset, elset=link79, internal, generate
+  79, 79
+** Section: Section-79 Profile: Profile-79
+ *Beam Section, elset =link79, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.079812
+*Elset, elset=link80, internal, generate
+  80, 80
+** Section: Section-80 Profile: Profile-80
+ *Beam Section, elset =link80, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.10491
+*Elset, elset=link81, internal, generate
+  81, 81
+** Section: Section-81 Profile: Profile-81
+ *Beam Section, elset =link81, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.090247
+*Elset, elset=link82, internal, generate
+  82, 82
+** Section: Section-82 Profile: Profile-82
+ *Beam Section, elset =link82, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.089895
+*Elset, elset=link83, internal, generate
+  83, 83
+** Section: Section-83 Profile: Profile-83
+ *Beam Section, elset =link83, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.082915
+*Elset, elset=link84, internal, generate
+  84, 84
+** Section: Section-84 Profile: Profile-84
+ *Beam Section, elset =link84, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.063686
+*Elset, elset=link85, internal, generate
+  85, 85
+** Section: Section-85 Profile: Profile-85
+ *Beam Section, elset =link85, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.067897
+*Elset, elset=link86, internal, generate
+  86, 86
+** Section: Section-86 Profile: Profile-86
+ *Beam Section, elset =link86, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.15229
+*Elset, elset=link87, internal, generate
+  87, 87
+** Section: Section-87 Profile: Profile-87
+ *Beam Section, elset =link87, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.14335
+*Elset, elset=link88, internal, generate
+  88, 88
+** Section: Section-88 Profile: Profile-88
+ *Beam Section, elset =link88, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.15229
+*Elset, elset=link89, internal, generate
+  89, 89
+** Section: Section-89 Profile: Profile-89
+ *Beam Section, elset =link89, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.071775
+*Elset, elset=link90, internal, generate
+  90, 90
+** Section: Section-90 Profile: Profile-90
+ *Beam Section, elset =link90, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.10209
+*Elset, elset=link91, internal, generate
+  91, 91
+** Section: Section-91 Profile: Profile-91
+ *Beam Section, elset =link91, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.066557
+*Elset, elset=link92, internal, generate
+  92, 92
+** Section: Section-92 Profile: Profile-92
+ *Beam Section, elset =link92, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.08642
+*Elset, elset=link93, internal, generate
+  93, 93
+** Section: Section-93 Profile: Profile-93
+ *Beam Section, elset =link93, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.050764
+*Elset, elset=link94, internal, generate
+  94, 94
+** Section: Section-94 Profile: Profile-94
+ *Beam Section, elset =link94, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.06134
+*Elset, elset=link95, internal, generate
+  95, 95
+** Section: Section-95 Profile: Profile-95
+ *Beam Section, elset =link95, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.056404
+*Elset, elset=link96, internal, generate
+  96, 96
+** Section: Section-96 Profile: Profile-96
+ *Beam Section, elset =link96, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.062327
+*Elset, elset=link97, internal, generate
+  97, 97
+** Section: Section-97 Profile: Profile-97
+ *Beam Section, elset =link97, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.072292
+*Elset, elset=link98, internal, generate
+  98, 98
+** Section: Section-98 Profile: Profile-98
+ *Beam Section, elset =link98, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.070506
+*Elset, elset=link99, internal, generate
+  99, 99
+** Section: Section-99 Profile: Profile-99
+ *Beam Section, elset =link99, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.082915
+*Elset, elset=link100, internal, generate
+  100, 100
+** Section: Section-100 Profile: Profile-100
+ *Beam Section, elset =link100, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.088625
+*Elset, elset=link101, internal, generate
+  101, 101
+** Section: Section-101 Profile: Profile-101
+ *Beam Section, elset =link101, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.053396
+*Elset, elset=link102, internal, generate
+  102, 102
+** Section: Section-102 Profile: Profile-102
+ *Beam Section, elset =link102, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.090529
+*Elset, elset=link103, internal, generate
+  103, 103
+** Section: Section-103 Profile: Profile-103
+ *Beam Section, elset =link103, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.082068
+*Elset, elset=link104, internal, generate
+  104, 104
+** Section: Section-104 Profile: Profile-104
+ *Beam Section, elset =link104, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.099836
+*Elset, elset=link105, internal, generate
+  105, 105
+** Section: Section-105 Profile: Profile-105
+ *Beam Section, elset =link105, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.13368
+*Elset, elset=link106, internal, generate
+  106, 106
+** Section: Section-106 Profile: Profile-106
+ *Beam Section, elset =link106, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.082576
+*Elset, elset=link107, internal, generate
+  107, 107
+** Section: Section-107 Profile: Profile-107
+ *Beam Section, elset =link107, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.09679
+*Elset, elset=link108, internal, generate
+  108, 108
+** Section: Section-108 Profile: Profile-108
+ *Beam Section, elset =link108, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.10813
+*Elset, elset=link109, internal, generate
+  109, 109
+** Section: Section-109 Profile: Profile-109
+ *Beam Section, elset =link109, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.15018
+*Elset, elset=link110, internal, generate
+  110, 110
+** Section: Section-110 Profile: Profile-110
+ *Beam Section, elset =link110, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.1066
+*Elset, elset=link111, internal, generate
+  111, 111
+** Section: Section-111 Profile: Profile-111
+ *Beam Section, elset =link111, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.097862
+*Elset, elset=link112, internal, generate
+  112, 112
+** Section: Section-112 Profile: Profile-112
+ *Beam Section, elset =link112, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.064583
+*Elset, elset=link113, internal, generate
+  113, 113
+** Section: Section-113 Profile: Profile-113
+ *Beam Section, elset =link113, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.082915
+*Elset, elset=link114, internal, generate
+  114, 114
+** Section: Section-114 Profile: Profile-114
+ *Beam Section, elset =link114, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.10195
+*Elset, elset=link115, internal, generate
+  115, 115
+** Section: Section-115 Profile: Profile-115
+ *Beam Section, elset =link115, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.064639
+*Elset, elset=link116, internal, generate
+  116, 116
+** Section: Section-116 Profile: Profile-116
+ *Beam Section, elset =link116, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.097956
+*Elset, elset=link117, internal, generate
+  117, 117
+** Section: Section-117 Profile: Profile-117
+ *Beam Section, elset =link117, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.072593
+*Elset, elset=link118, internal, generate
+  118, 118
+** Section: Section-118 Profile: Profile-118
+ *Beam Section, elset =link118, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.079812
+*Elset, elset=link119, internal, generate
+  119, 119
+** Section: Section-119 Profile: Profile-119
+ *Beam Section, elset =link119, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.084184
+*Elset, elset=link120, internal, generate
+  120, 120
+** Section: Section-120 Profile: Profile-120
+ *Beam Section, elset =link120, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.11083
+*Elset, elset=link121, internal, generate
+  121, 121
+** Section: Section-121 Profile: Profile-121
+ *Beam Section, elset =link121, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.074696
+*Elset, elset=link122, internal, generate
+  122, 122
+** Section: Section-122 Profile: Profile-122
+ *Beam Section, elset =link122, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.087796
+*Elset, elset=link123, internal, generate
+  123, 123
+** Section: Section-123 Profile: Profile-123
+ *Beam Section, elset =link123, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.078177
+*Elset, elset=link124, internal, generate
+  124, 124
+** Section: Section-124 Profile: Profile-124
+ *Beam Section, elset =link124, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.12776
+*Elset, elset=link125, internal, generate
+  125, 125
+** Section: Section-125 Profile: Profile-125
+ *Beam Section, elset =link125, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.090304
+*Elset, elset=link126, internal, generate
+  126, 126
+** Section: Section-126 Profile: Profile-126
+ *Beam Section, elset =link126, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.13554
+*Elset, elset=link127, internal, generate
+  127, 127
+** Section: Section-127 Profile: Profile-127
+ *Beam Section, elset =link127, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.098374
+*Elset, elset=link128, internal, generate
+  128, 128
+** Section: Section-128 Profile: Profile-128
+ *Beam Section, elset =link128, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.089683
+*Elset, elset=link129, internal, generate
+  129, 129
+** Section: Section-129 Profile: Profile-129
+ *Beam Section, elset =link129, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.052118
+*Elset, elset=link130, internal, generate
+  130, 130
+** Section: Section-130 Profile: Profile-130
+ *Beam Section, elset =link130, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.059507
+*Elset, elset=link131, internal, generate
+  131, 131
+** Section: Section-131 Profile: Profile-131
+ *Beam Section, elset =link131, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.058379
+*Elset, elset=link132, internal, generate
+  132, 132
+** Section: Section-132 Profile: Profile-132
+ *Beam Section, elset =link132, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.054216
+*Elset, elset=link133, internal, generate
+  133, 133
+** Section: Section-133 Profile: Profile-133
+ *Beam Section, elset =link133, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.068954
+*Elset, elset=link134, internal, generate
+  134, 134
+** Section: Section-134 Profile: Profile-134
+ *Beam Section, elset =link134, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.079192
+*Elset, elset=link135, internal, generate
+  135, 135
+** Section: Section-135 Profile: Profile-135
+ *Beam Section, elset =link135, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.073608
+*Elset, elset=link136, internal, generate
+  136, 136
+** Section: Section-136 Profile: Profile-136
+ *Beam Section, elset =link136, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.052847
+*Elset, elset=link137, internal, generate
+  137, 137
+** Section: Section-137 Profile: Profile-137
+ *Beam Section, elset =link137, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.062609
+*Elset, elset=link138, internal, generate
+  138, 138
+** Section: Section-138 Profile: Profile-138
+ *Beam Section, elset =link138, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.14282
+*Elset, elset=link139, internal, generate
+  139, 139
+** Section: Section-139 Profile: Profile-139
+ *Beam Section, elset =link139, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.13452
+*Elset, elset=link140, internal, generate
+  140, 140
+** Section: Section-140 Profile: Profile-140
+ *Beam Section, elset =link140, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.093913
+*Elset, elset=link141, internal, generate
+  141, 141
+** Section: Section-141 Profile: Profile-141
+ *Beam Section, elset =link141, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.07671
+*Elset, elset=link142, internal, generate
+  142, 142
+** Section: Section-142 Profile: Profile-142
+ *Beam Section, elset =link142, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.090247
+*Elset, elset=link143, internal, generate
+  143, 143
+** Section: Section-143 Profile: Profile-143
+ *Beam Section, elset =link143, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.11813
+*Elset, elset=link144, internal, generate
+  144, 144
+** Section: Section-144 Profile: Profile-144
+ *Beam Section, elset =link144, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.094061
+*Elset, elset=link145, internal, generate
+  145, 145
+** Section: Section-145 Profile: Profile-145
+ *Beam Section, elset =link145, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.093349
+*Elset, elset=link146, internal, generate
+  146, 146
+** Section: Section-146 Profile: Profile-146
+ *Beam Section, elset =link146, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.098014
+*Elset, elset=link147, internal, generate
+  147, 147
+** Section: Section-147 Profile: Profile-147
+ *Beam Section, elset =link147, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.04738
+*Elset, elset=link148, internal, generate
+  148, 148
+** Section: Section-148 Profile: Profile-148
+ *Beam Section, elset =link148, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.058379
+*Elset, elset=link149, internal, generate
+  149, 149
+** Section: Section-149 Profile: Profile-149
+ *Beam Section, elset =link149, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.10491
+*Elset, elset=link150, internal, generate
+  150, 150
+** Section: Section-150 Profile: Profile-150
+ *Beam Section, elset =link150, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.067165
+*Elset, elset=link151, internal, generate
+  151, 151
+** Section: Section-151 Profile: Profile-151
+ *Beam Section, elset =link151, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.087991
+*Elset, elset=link152, internal, generate
+  152, 152
+** Section: Section-152 Profile: Profile-152
+ *Beam Section, elset =link152, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.073608
+*Elset, elset=link153, internal, generate
+  153, 153
+** Section: Section-153 Profile: Profile-153
+ *Beam Section, elset =link153, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.082915
+*Elset, elset=link154, internal, generate
+  154, 154
+** Section: Section-154 Profile: Profile-154
+ *Beam Section, elset =link154, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.13424
+*Elset, elset=link155, internal, generate
+  155, 155
+** Section: Section-155 Profile: Profile-155
+ *Beam Section, elset =link155, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.12409
+*Elset, elset=link156, internal, generate
+  156, 156
+** Section: Section-156 Profile: Profile-156
+ *Beam Section, elset =link156, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.1568
+*Elset, elset=link157, internal, generate
+  157, 157
+** Section: Section-157 Profile: Profile-157
+ *Beam Section, elset =link157, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.11676
+*Elset, elset=link158, internal, generate
+  158, 158
+** Section: Section-158 Profile: Profile-158
+ *Beam Section, elset =link158, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.11478
+*Elset, elset=link159, internal, generate
+  159, 159
+** Section: Section-159 Profile: Profile-159
+ *Beam Section, elset =link159, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.059225
+*Elset, elset=link160, internal, generate
+  160, 160
+** Section: Section-160 Profile: Profile-160
+ *Beam Section, elset =link160, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.097419
+*Elset, elset=link161, internal, generate
+  161, 161
+** Section: Section-161 Profile: Profile-161
+ *Beam Section, elset =link161, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.079699
+*Elset, elset=link162, internal, generate
+  162, 162
+** Section: Section-162 Profile: Profile-162
+ *Beam Section, elset =link162, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.064513
+*Elset, elset=link163, internal, generate
+  163, 163
+** Section: Section-163 Profile: Profile-163
+ *Beam Section, elset =link163, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.078261
+*Elset, elset=link164, internal, generate
+  164, 164
+** Section: Section-164 Profile: Profile-164
+ *Beam Section, elset =link164, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.089162
+*Elset, elset=link165, internal, generate
+  165, 165
+** Section: Section-165 Profile: Profile-165
+ *Beam Section, elset =link165, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.050933
+*Elset, elset=link166, internal, generate
+  166, 166
+** Section: Section-166 Profile: Profile-166
+ *Beam Section, elset =link166, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.082439
+*Elset, elset=link167, internal, generate
+  167, 167
+** Section: Section-167 Profile: Profile-167
+ *Beam Section, elset =link167, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.088499
+*Elset, elset=link168, internal, generate
+  168, 168
+** Section: Section-168 Profile: Profile-168
+ *Beam Section, elset =link168, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.079107
+*Elset, elset=link169, internal, generate
+  169, 169
+** Section: Section-169 Profile: Profile-169
+ *Beam Section, elset =link169, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.13199
+*Elset, elset=link170, internal, generate
+  170, 170
+** Section: Section-170 Profile: Profile-170
+ *Beam Section, elset =link170, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.063763
+*Elset, elset=link171, internal, generate
+  171, 171
+** Section: Section-171 Profile: Profile-171
+ *Beam Section, elset =link171, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.10491
+*Elset, elset=link172, internal, generate
+  172, 172
+** Section: Section-172 Profile: Profile-172
+ *Beam Section, elset =link172, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.079192
+*Elset, elset=link173, internal, generate
+  173, 173
+** Section: Section-173 Profile: Profile-173
+ *Beam Section, elset =link173, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.10779
+*Elset, elset=link174, internal, generate
+  174, 174
+** Section: Section-174 Profile: Profile-174
+ *Beam Section, elset =link174, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.17873
+*Elset, elset=link175, internal, generate
+  175, 175
+** Section: Section-175 Profile: Profile-175
+ *Beam Section, elset =link175, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.086863
+*Elset, elset=link176, internal, generate
+  176, 176
+** Section: Section-176 Profile: Profile-176
+ *Beam Section, elset =link176, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.10576
+*Elset, elset=link177, internal, generate
+  177, 177
+** Section: Section-177 Profile: Profile-177
+ *Beam Section, elset =link177, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.084295
+*Elset, elset=link178, internal, generate
+  178, 178
+** Section: Section-178 Profile: Profile-178
+ *Beam Section, elset =link178, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.066598
+*Elset, elset=link179, internal, generate
+  179, 179
+** Section: Section-179 Profile: Profile-179
+ *Beam Section, elset =link179, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.08235
+*Elset, elset=link180, internal, generate
+  180, 180
+** Section: Section-180 Profile: Profile-180
+ *Beam Section, elset =link180, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.086068
+*Elset, elset=link181, internal, generate
+  181, 181
+** Section: Section-181 Profile: Profile-181
+ *Beam Section, elset =link181, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.082915
+*Elset, elset=link182, internal, generate
+  182, 182
+** Section: Section-182 Profile: Profile-182
+ *Beam Section, elset =link182, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.064561
+*Elset, elset=link183, internal, generate
+  183, 183
+** Section: Section-183 Profile: Profile-183
+ *Beam Section, elset =link183, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.074792
+*Elset, elset=link184, internal, generate
+  184, 184
+** Section: Section-184 Profile: Profile-184
+ *Beam Section, elset =link184, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.07671
+*Elset, elset=link185, internal, generate
+  185, 185
+** Section: Section-185 Profile: Profile-185
+ *Beam Section, elset =link185, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.082915
+*Elset, elset=link186, internal, generate
+  186, 186
+** Section: Section-186 Profile: Profile-186
+ *Beam Section, elset =link186, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.076992
+*Elset, elset=link187, internal, generate
+  187, 187
+** Section: Section-187 Profile: Profile-187
+ *Beam Section, elset =link187, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.087991
+*Elset, elset=link188, internal, generate
+  188, 188
+** Section: Section-188 Profile: Profile-188
+ *Beam Section, elset =link188, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.059563
+*Elset, elset=link189, internal, generate
+  189, 189
+** Section: Section-189 Profile: Profile-189
+ *Beam Section, elset =link189, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.15441
+*Elset, elset=link190, internal, generate
+  190, 190
+** Section: Section-190 Profile: Profile-190
+ *Beam Section, elset =link190, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.11856
+*Elset, elset=link191, internal, generate
+  191, 191
+** Section: Section-191 Profile: Profile-191
+ *Beam Section, elset =link191, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.21067
+*Elset, elset=link192, internal, generate
+  192, 192
+** Section: Section-192 Profile: Profile-192
+ *Beam Section, elset =link192, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.071493
+*Elset, elset=link193, internal, generate
+  193, 193
+** Section: Section-193 Profile: Profile-193
+ *Beam Section, elset =link193, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.082915
+*Elset, elset=link194, internal, generate
+  194, 194
+** Section: Section-194 Profile: Profile-194
+ *Beam Section, elset =link194, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.071493
+*Elset, elset=link195, internal, generate
+  195, 195
+** Section: Section-195 Profile: Profile-195
+ *Beam Section, elset =link195, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.085558
+*Elset, elset=link196, internal, generate
+  196, 196
+** Section: Section-196 Profile: Profile-196
+ *Beam Section, elset =link196, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.05584
+*Elset, elset=link197, internal, generate
+  197, 197
+** Section: Section-197 Profile: Profile-197
+ *Beam Section, elset =link197, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.078303
+*Elset, elset=link198, internal, generate
+  198, 198
+** Section: Section-198 Profile: Profile-198
+ *Beam Section, elset =link198, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.14778
+*Elset, elset=link199, internal, generate
+  199, 199
+** Section: Section-199 Profile: Profile-199
+ *Beam Section, elset =link199, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.15229
+*Elset, elset=link200, internal, generate
+  200, 200
+** Section: Section-200 Profile: Profile-200
+ *Beam Section, elset =link200, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.14327
+*Elset, elset=link201, internal, generate
+  201, 201
+** Section: Section-201 Profile: Profile-201
+ *Beam Section, elset =link201, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.070506
+*Elset, elset=link202, internal, generate
+  202, 202
+** Section: Section-202 Profile: Profile-202
+ *Beam Section, elset =link202, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.10305
+*Elset, elset=link203, internal, generate
+  203, 203
+** Section: Section-203 Profile: Profile-203
+ *Beam Section, elset =link203, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.092221
+*Elset, elset=link204, internal, generate
+  204, 204
+** Section: Section-204 Profile: Profile-204
+ *Beam Section, elset =link204, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.11365
+*Elset, elset=link205, internal, generate
+  205, 205
+** Section: Section-205 Profile: Profile-205
+ *Beam Section, elset =link205, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.086299
+*Elset, elset=link206, internal, generate
+  206, 206
+** Section: Section-206 Profile: Profile-206
+ *Beam Section, elset =link206, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.14992
+*Elset, elset=link207, internal, generate
+  207, 207
+** Section: Section-207 Profile: Profile-207
+ *Beam Section, elset =link207, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.10596
+*Elset, elset=link208, internal, generate
+  208, 208
+** Section: Section-208 Profile: Profile-208
+ *Beam Section, elset =link208, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.098144
+*Elset, elset=link209, internal, generate
+  209, 209
+** Section: Section-209 Profile: Profile-209
+ *Beam Section, elset =link209, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.083761
+*Elset, elset=link210, internal, generate
+  210, 210
+** Section: Section-210 Profile: Profile-210
+ *Beam Section, elset =link210, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.064513
+*Elset, elset=link211, internal, generate
+  211, 211
+** Section: Section-211 Profile: Profile-211
+ *Beam Section, elset =link211, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.070465
+*Elset, elset=link212, internal, generate
+  212, 212
+** Section: Section-212 Profile: Profile-212
+ *Beam Section, elset =link212, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.062609
+*Elset, elset=link213, internal, generate
+  213, 213
+** Section: Section-213 Profile: Profile-213
+ *Beam Section, elset =link213, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.07671
+*Elset, elset=link214, internal, generate
+  214, 214
+** Section: Section-214 Profile: Profile-214
+ *Beam Section, elset =link214, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.079812
+*Elset, elset=link215, internal, generate
+  215, 215
+** Section: Section-215 Profile: Profile-215
+ *Beam Section, elset =link215, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.04738
+*Elset, elset=link216, internal, generate
+  216, 216
+** Section: Section-216 Profile: Profile-216
+ *Beam Section, elset =link216, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.052456
+*Elset, elset=link217, internal, generate
+  217, 217
+** Section: Section-217 Profile: Profile-217
+ *Beam Section, elset =link217, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.10677
+*Elset, elset=link218, internal, generate
+  218, 218
+** Section: Section-218 Profile: Profile-218
+ *Beam Section, elset =link218, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.098778
+*Elset, elset=link219, internal, generate
+  219, 219
+** Section: Section-219 Profile: Profile-219
+ *Beam Section, elset =link219, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.077274
+*Elset, elset=link220, internal, generate
+  220, 220
+** Section: Section-220 Profile: Profile-220
+ *Beam Section, elset =link220, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.14603
+*Elset, elset=link221, internal, generate
+  221, 221
+** Section: Section-221 Profile: Profile-221
+ *Beam Section, elset =link221, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.1402
+*Elset, elset=link222, internal, generate
+  222, 222
+** Section: Section-222 Profile: Profile-222
+ *Beam Section, elset =link222, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.12941
+*Elset, elset=link223, internal, generate
+  223, 223
+** Section: Section-223 Profile: Profile-223
+ *Beam Section, elset =link223, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.13743
+*Elset, elset=link224, internal, generate
+  224, 224
+** Section: Section-224 Profile: Profile-224
+ *Beam Section, elset =link224, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.082915
+*Elset, elset=link225, internal, generate
+  225, 225
+** Section: Section-225 Profile: Profile-225
+ *Beam Section, elset =link225, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.18487
+*Elset, elset=link226, internal, generate
+  226, 226
+** Section: Section-226 Profile: Profile-226
+ *Beam Section, elset =link226, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.10793
+*Elset, elset=link227, internal, generate
+  227, 227
+** Section: Section-227 Profile: Profile-227
+ *Beam Section, elset =link227, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.069982
+*Elset, elset=link228, internal, generate
+  228, 228
+** Section: Section-228 Profile: Profile-228
+ *Beam Section, elset =link228, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.080376
+*Elset, elset=link229, internal, generate
+  229, 229
+** Section: Section-229 Profile: Profile-229
+ *Beam Section, elset =link229, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.05916
+*Elset, elset=link230, internal, generate
+  230, 230
+** Section: Section-230 Profile: Profile-230
+ *Beam Section, elset =link230, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.087991
+*Elset, elset=link231, internal, generate
+  231, 231
+** Section: Section-231 Profile: Profile-231
+ *Beam Section, elset =link231, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.082915
+*Elset, elset=link232, internal, generate
+  232, 232
+** Section: Section-232 Profile: Profile-232
+ *Beam Section, elset =link232, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.090021
+*Elset, elset=link233, internal, generate
+  233, 233
+** Section: Section-233 Profile: Profile-233
+ *Beam Section, elset =link233, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.076992
+*Elset, elset=link234, internal, generate
+  234, 234
+** Section: Section-234 Profile: Profile-234
+ *Beam Section, elset =link234, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.073608
+*Elset, elset=link235, internal, generate
+  235, 235
+** Section: Section-235 Profile: Profile-235
+ *Beam Section, elset =link235, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.065711
+*Elset, elset=link236, internal, generate
+  236, 236
+** Section: Section-236 Profile: Profile-236
+ *Beam Section, elset =link236, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.21575
+*Elset, elset=link237, internal, generate
+  237, 237
+** Section: Section-237 Profile: Profile-237
+ *Beam Section, elset =link237, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.17965
+*Elset, elset=link238, internal, generate
+  238, 238
+** Section: Section-238 Profile: Profile-238
+ *Beam Section, elset =link238, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.083761
+*Elset, elset=link239, internal, generate
+  239, 239
+** Section: Section-239 Profile: Profile-239
+ *Beam Section, elset =link239, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.082915
+*Elset, elset=link240, internal, generate
+  240, 240
+** Section: Section-240 Profile: Profile-240
+ *Beam Section, elset =link240, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.16921
+*Elset, elset=link241, internal, generate
+  241, 241
+** Section: Section-241 Profile: Profile-241
+ *Beam Section, elset =link241, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.080546
+*Elset, elset=link242, internal, generate
+  242, 242
+** Section: Section-242 Profile: Profile-242
+ *Beam Section, elset =link242, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.082915
+*Elset, elset=link243, internal, generate
+  243, 243
+** Section: Section-243 Profile: Profile-243
+ *Beam Section, elset =link243, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.073608
+*Elset, elset=link244, internal, generate
+  244, 244
+** Section: Section-244 Profile: Profile-244
+ *Beam Section, elset =link244, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.094683
+*Elset, elset=link245, internal, generate
+  245, 245
+** Section: Section-245 Profile: Profile-245
+ *Beam Section, elset =link245, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.082915
+*Elset, elset=link246, internal, generate
+  246, 246
+** Section: Section-246 Profile: Profile-246
+ *Beam Section, elset =link246, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.075934
+*Elset, elset=link247, internal, generate
+  247, 247
+** Section: Section-247 Profile: Profile-247
+ *Beam Section, elset =link247, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.063596
+*Elset, elset=link248, internal, generate
+  248, 248
+** Section: Section-248 Profile: Profile-248
+ *Beam Section, elset =link248, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.055417
+*Elset, elset=link249, internal, generate
+  249, 249
+** Section: Section-249 Profile: Profile-249
+ *Beam Section, elset =link249, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.078926
+*Elset, elset=link250, internal, generate
+  250, 250
+** Section: Section-250 Profile: Profile-250
+ *Beam Section, elset =link250, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.065993
+*Elset, elset=link251, internal, generate
+  251, 251
+** Section: Section-251 Profile: Profile-251
+ *Beam Section, elset =link251, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.067403
+*Elset, elset=link252, internal, generate
+  252, 252
+** Section: Section-252 Profile: Profile-252
+ *Beam Section, elset =link252, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.050294
+*Elset, elset=link253, internal, generate
+  253, 253
+** Section: Section-253 Profile: Profile-253
+ *Beam Section, elset =link253, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.065993
+*Elset, elset=link254, internal, generate
+  254, 254
+** Section: Section-254 Profile: Profile-254
+ *Beam Section, elset =link254, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.058379
+*Elset, elset=link255, internal, generate
+  255, 255
+** Section: Section-255 Profile: Profile-255
+ *Beam Section, elset =link255, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.070506
+*Elset, elset=link256, internal, generate
+  256, 256
+** Section: Section-256 Profile: Profile-256
+ *Beam Section, elset =link256, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.043995
+*Elset, elset=link257, internal, generate
+  257, 257
+** Section: Section-257 Profile: Profile-257
+ *Beam Section, elset =link257, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.041062
+*Elset, elset=link258, internal, generate
+  258, 258
+** Section: Section-258 Profile: Profile-258
+ *Beam Section, elset =link258, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.047041
+*Elset, elset=link259, internal, generate
+  259, 259
+** Section: Section-259 Profile: Profile-259
+ *Beam Section, elset =link259, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.071746
+*Elset, elset=link260, internal, generate
+  260, 260
+** Section: Section-260 Profile: Profile-260
+ *Beam Section, elset =link260, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.073608
+*Elset, elset=link261, internal, generate
+  261, 261
+** Section: Section-261 Profile: Profile-261
+ *Beam Section, elset =link261, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.067315
+*Elset, elset=link262, internal, generate
+  262, 262
+** Section: Section-262 Profile: Profile-262
+ *Beam Section, elset =link262, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.081053
+*Elset, elset=link263, internal, generate
+  263, 263
+** Section: Section-263 Profile: Profile-263
+ *Beam Section, elset =link263, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.062468
+*Elset, elset=link264, internal, generate
+  264, 264
+** Section: Section-264 Profile: Profile-264
+ *Beam Section, elset =link264, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.077697
+*Elset, elset=link265, internal, generate
+  265, 265
+** Section: Section-265 Profile: Profile-265
+ *Beam Section, elset =link265, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.090529
+*Elset, elset=link266, internal, generate
+  266, 266
+** Section: Section-266 Profile: Profile-266
+ *Beam Section, elset =link266, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.21349
+*Elset, elset=link267, internal, generate
+  267, 267
+** Section: Section-267 Profile: Profile-267
+ *Beam Section, elset =link267, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.16921
+*Elset, elset=link268, internal, generate
+  268, 268
+** Section: Section-268 Profile: Profile-268
+ *Beam Section, elset =link268, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.10491
+*Elset, elset=link269, internal, generate
+  269, 269
+** Section: Section-269 Profile: Profile-269
+ *Beam Section, elset =link269, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.070506
+*Elset, elset=link270, internal, generate
+  270, 270
+** Section: Section-270 Profile: Profile-270
+ *Beam Section, elset =link270, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.052456
+*Elset, elset=link271, internal, generate
+  271, 271
+** Section: Section-271 Profile: Profile-271
+ *Beam Section, elset =link271, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.042303
+*Elset, elset=link272, internal, generate
+  272, 272
+** Section: Section-272 Profile: Profile-272
+ *Beam Section, elset =link272, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.057871
+*Elset, elset=link273, internal, generate
+  273, 273
+** Section: Section-273 Profile: Profile-273
+ *Beam Section, elset =link273, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.037227
+*Elset, elset=link274, internal, generate
+  274, 274
+** Section: Section-274 Profile: Profile-274
+ *Beam Section, elset =link274, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.037227
+*Elset, elset=link275, internal, generate
+  275, 275
+** Section: Section-275 Profile: Profile-275
+ *Beam Section, elset =link275, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.037227
+*Elset, elset=link276, internal, generate
+  276, 276
+** Section: Section-276 Profile: Profile-276
+ *Beam Section, elset =link276, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.073608
+*Elset, elset=link277, internal, generate
+  277, 277
+** Section: Section-277 Profile: Profile-277
+ *Beam Section, elset =link277, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.068343
+*Elset, elset=link278, internal, generate
+  278, 278
+** Section: Section-278 Profile: Profile-278
+ *Beam Section, elset =link278, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.090529
+*Elset, elset=link279, internal, generate
+  279, 279
+** Section: Section-279 Profile: Profile-279
+ *Beam Section, elset =link279, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.073396
+*Elset, elset=link280, internal, generate
+  280, 280
+** Section: Section-280 Profile: Profile-280
+ *Beam Section, elset =link280, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.071493
+*Elset, elset=link281, internal, generate
+  281, 281
+** Section: Section-281 Profile: Profile-281
+ *Beam Section, elset =link281, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.081504
+*Elset, elset=link282, internal, generate
+  282, 282
+** Section: Section-282 Profile: Profile-282
+ *Beam Section, elset =link282, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.085453
+*Elset, elset=link283, internal, generate
+  283, 283
+** Section: Section-283 Profile: Profile-283
+ *Beam Section, elset =link283, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.060776
+*Elset, elset=link284, internal, generate
+  284, 284
+** Section: Section-284 Profile: Profile-284
+ *Beam Section, elset =link284, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.037227
+*Elset, elset=link285, internal, generate
+  285, 285
+** Section: Section-285 Profile: Profile-285
+ *Beam Section, elset =link285, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.15779
+*Elset, elset=link286, internal, generate
+  286, 286
+** Section: Section-286 Profile: Profile-286
+ *Beam Section, elset =link286, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.14117
+*Elset, elset=link287, internal, generate
+  287, 287
+** Section: Section-287 Profile: Profile-287
+ *Beam Section, elset =link287, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.082633
+*Elset, elset=link288, internal, generate
+  288, 288
+** Section: Section-288 Profile: Profile-288
+ *Beam Section, elset =link288, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.067474
+*Elset, elset=link289, internal, generate
+  289, 289
+** Section: Section-289 Profile: Profile-289
+ *Beam Section, elset =link289, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.089119
+*Elset, elset=link290, internal, generate
+  290, 290
+** Section: Section-290 Profile: Profile-290
+ *Beam Section, elset =link290, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.055276
+*Elset, elset=link291, internal, generate
+  291, 291
+** Section: Section-291 Profile: Profile-291
+ *Beam Section, elset =link291, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.060192
+*Elset, elset=link292, internal, generate
+  292, 292
+** Section: Section-292 Profile: Profile-292
+ *Beam Section, elset =link292, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.10491
+*Elset, elset=link293, internal, generate
+  293, 293
+** Section: Section-293 Profile: Profile-293
+ *Beam Section, elset =link293, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.080094
+*Elset, elset=link294, internal, generate
+  294, 294
+** Section: Section-294 Profile: Profile-294
+ *Beam Section, elset =link294, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.048931
+*Elset, elset=link295, internal, generate
+  295, 295
+** Section: Section-295 Profile: Profile-295
+ *Beam Section, elset =link295, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.082915
+*Elset, elset=link296, internal, generate
+  296, 296
+** Section: Section-296 Profile: Profile-296
+ *Beam Section, elset =link296, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.087991
+*Elset, elset=link297, internal, generate
+  297, 297
+** Section: Section-297 Profile: Profile-297
+ *Beam Section, elset =link297, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.093349
+*Elset, elset=link298, internal, generate
+  298, 298
+** Section: Section-298 Profile: Profile-298
+ *Beam Section, elset =link298, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.10801
+*Elset, elset=link299, internal, generate
+  299, 299
+** Section: Section-299 Profile: Profile-299
+ *Beam Section, elset =link299, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.043826
+*Elset, elset=link300, internal, generate
+  300, 300
+** Section: Section-300 Profile: Profile-300
+ *Beam Section, elset =link300, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.071916
+*Elset, elset=link301, internal, generate
+  301, 301
+** Section: Section-301 Profile: Profile-301
+ *Beam Section, elset =link301, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.077838
+*Elset, elset=link302, internal, generate
+  302, 302
+** Section: Section-302 Profile: Profile-302
+ *Beam Section, elset =link302, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.0764
+*Elset, elset=link303, internal, generate
+  303, 303
+** Section: Section-303 Profile: Profile-303
+ *Beam Section, elset =link303, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.07953
+*Elset, elset=link304, internal, generate
+  304, 304
+** Section: Section-304 Profile: Profile-304
+ *Beam Section, elset =link304, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.082915
+*Elset, elset=link305, internal, generate
+  305, 305
+** Section: Section-305 Profile: Profile-305
+ *Beam Section, elset =link305, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.062101
+*Elset, elset=link306, internal, generate
+  306, 306
+** Section: Section-306 Profile: Profile-306
+ *Beam Section, elset =link306, material=Material-1, temperature=GRADIENTS, section=CIRC
+0.11676
+*Material, name=MATERIAL-1
+*Elastic
+ 1e+10, 0.16
