@@ -69,4 +69,10 @@ close(v);
 %% Playing histogram movie
 fig = figure;
 movie(fig,F,1);
-
+%% Stress vs Vol Fraction Histogram
+x = [link_trunc.localVolFrac];
+y = [link_trunc.finalStress];
+s = scatter(x,y);
+title("Stress/ Local Volume Fraction Scatterplot");
+xlabel("Local Bone Volume Fraction");
+ylabel("Final Stresses");
