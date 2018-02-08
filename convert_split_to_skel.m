@@ -271,6 +271,8 @@ end
 
 %% Processing all the stress data as above (making a proper time series)
 %this stress time series data will go into a video
+%additionally, this compresses all the abaqus link data to the graph link
+%data
 %load('workspace_split9_new_VOI_701x101y_stresses_data.mat');
 
 link_stress_time = zeros(length(link_trunc), size(stress_data,2));
@@ -282,7 +284,7 @@ for timestep = 1:size(stress_data,2)
         disp(maxStress);
         for index2 = 1:splitnum
             combIndex = index1*splitnum+index2;
-            disp(combIndex);
+            %disp(combIndex);
             if (stress_data(combIndex,timestep) > maxStress)
                 maxStress = stress_data(combIndex,timestep);
             end

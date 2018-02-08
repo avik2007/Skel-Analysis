@@ -19,18 +19,25 @@ histogram(TLR);
 title("TLR Distribution");
 xlabel("Thickness to Length Ratio");
 ylabel("Number of Links");
-%% STRESS TO TLR  Scatter
+%% Finding trabecula that aren't taking 0 stress
+stresses = [link_trunc.finalStress];
+nonzeros = find(stresses > 200);
+%% STRESS TO TLR  Scatter (reattempted with only greater than 0 stress trabecula)
 
-x = [link_trunc.thicklengthratio];
-y = [link_trunc.finalStress];
+TLR = [link_trunc.thicklengthratio];
+
+x = TLR(nonzeros);
+y = stresses(nonzeros);
 s = scatter(x,y);
 title("Stress / TLR Scatterplot");
 xlabel("Thickness to Length Ratio");
 ylabel("Final Stresses");
 
 %% STRESS TO thickness Scatter
-x = [link_trunc.avgthickness];
-y = [link_trunc.finalStress];
+THICK = [link_trunc.avgthickness];
+
+x = THICK(nonzeros);
+y = stresses(nonzeros);
 s = scatter(x,y);
 title("Stress/ Average Thickness Scatterplot");
 xlabel("Average Thickness");
@@ -70,9 +77,124 @@ close(v);
 fig = figure;
 movie(fig,F,1);
 %% Stress vs Vol Fraction Histogram
-x = [link_trunc.localVolFrac];
-y = [link_trunc.finalStress];
+VF = [link_trunc.localVolFrac];
+
+x = VF(nonzeros);
+y = stresses(nonzeros);
 s = scatter(x,y);
 title("Stress/ Local Volume Fraction Scatterplot");
 xlabel("Local Bone Volume Fraction");
 ylabel("Final Stresses");
+
+%% Link Orientation (Direction) Histogram
+%Right now, I'm measuring up-down orientation
+orientation = zeros(length(link_trunc),1);
+for oindex = 1:length(link_trunc)
+    orientation(oindex,1) = abs(dot([0,0,1], link_trunc(oindex).direction));
+end
+figure('Name','Link Vertical Orientation Distribution');
+histogram(orientation);
+
+title("Z Axis Orientation Distribution");
+xlabel("Z Axis Orientation Ratio");
+ylabel("Number of Links");
+
+%% Stress Data vs Vertical Orientation
+
+x = abs(orientation);
+y = [link_trunc.finalStress];
+s = scatter(x,y);
+
+title("Stress/ Link Vertical Orientation Scatterplot");
+xlabel("Link Vertical Orientation");
+ylabel("Final Stresses");
+
+%% Stress Data Dynamics
+% needs compressed link stress data
+x = 1:26;
+y = link_stress_time(503,:);
+p = plot(x,y, 'o');
+%s = scatter(x,y);
+title("Stress Evolution on Max Stressed Link");
+xlabel("Timestep");
+ylabel("Stresses");
+
+%% Taking a sample of the 30 most stressed links 
+%stresses get ordered in this subsection!! 
+
+finalStresses = zeros(size(link_stress_time,1),2);
+finalStresses(:,1) = (link_stress_time(:,26));
+finalStresses(:,2) = (1:size(link_stress_time,1))';
+
+map = containers.Map(finalStresses(:,1)',finalStresses(:,2)');
+orderedStress = sort(finalStresses(:,1), 'descend'); 
+orderedStressLinks = arrayfun(@(x) map(x), orderedStress);
+orderedStresses = [orderedStress orderedStressLinks];
+clear orderedStress orderedStressLinks map finalStresses;
+
+%% Plotting stress evolution of top 3 stressed links
+x = 0:25;
+y1 = link_stress_time(orderedStresses(1,2),:);
+y2 = link_stress_time(orderedStresses(2,2),:);
+y3 = link_stress_time(orderedStresses(3,2),:);
+
+plot(x,y1,'r--', x,y2,'ko', x,y3,'b:');
+title("Stress Evolution on 3 Max Stressed Link");
+xlabel("Timesteps");
+ylabel("Stresses (MPa)");
+legend(horzcat('Link ', num2str(orderedStresses(1,2))), horzcat('Link ', num2str( orderedStresses(2,2)) ), ...
+    horzcat('Link ', num2str(orderedStresses(3,2))), 'Location', 'Northwest'); 
+%% Calculating Stress/Time Derivatives
+max_link_derivatives = zeros(length(orderedStresses),1);
+for dindex = 1:length(orderedStresses)
+    max_link_derivatives(dindex,1) = mean(gradient(link_stress_time(orderedStresses(dindex,2),:))); 
+end
+% Derivatives of the slope of the stress dynamics of the 30 most stressed
+% links
+
+%% Derivative of stresses to thicklength ratio
+
+TLR = [link_trunc.thicklengthratio];
+
+x = TLR(orderedStresses(:,2));
+y = max_link_derivatives;
+s = scatter(x,y);
+title("Stress Time Derivative / TLR Scatterplot");
+xlabel("Thickness to Length Ratio");
+ylabel("Stress Time Derivative");
+
+%% Derivative of stresses to volume fraction
+
+VF = [link_trunc.localVolFrac];
+
+x = VF(orderedStresses(:,2));
+y = max_link_derivatives;
+s = scatter(x,y);
+title("Stress Time Derivatives/ Local Volume Fraction Scatterplot");
+xlabel("Local Bone Volume Fraction");
+ylabel("Stress Time Derivatives");
+
+%% Plot to show how few links carry the stress of the network
+%Going to make a frame of all the histogram video data
+
+
+timesteps = size(link_stress_time,2); 
+stressLim = max(link_stress_time(:,timesteps));
+F(timesteps) = struct('cdata',[],'colormap',[]);
+v = VideoWriter('link_stress_time_series.avi') ;
+v.FrameRate = 5;
+open(v);
+for i = 1:timesteps
+    Stress = link_stress_time(:,i);
+    figure('Name',horzcat('VOI_701x101y Stress Distribution ', num2str(i)));
+    data = link_stress_time(:,i);
+    bar(data,'b');
+    axis([0 length(link_trunc) 0 stressLim]);
+    title(strcat("Split9 Stress Distribution: Frame ", num2str(i)));
+    xlabel("Link");
+    ylabel("Stress (MPa)");
+    F(i) = getframe(gcf);
+    writeVideo(v,F(i));
+    close(gcf);
+end
+close(v); 
