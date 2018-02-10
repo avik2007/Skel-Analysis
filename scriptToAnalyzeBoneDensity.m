@@ -3,7 +3,11 @@
 %Splitting the VOI into smaller increments, maybe 
 %I'm changing the VOI from 71 in depth to 70
 % this way I can split it up into groups of 10x10x7
+<<<<<<< HEAD
 % GET VOI OF ORIGINAL BONE STUFF
+=======
+
+>>>>>>> 4992a12a2ad1338f7f642b57dbc218984af91dbe
 totalVolume = length( find( postAbaqusVOI == 1 ) );
 totalAvailableVolume = 700000;
 volumeFraction = totalVolume / totalAvailableVolume; 
@@ -31,7 +35,10 @@ subBoneFraction = subBoneMass / (10*10*7);
 % nodes that have links above 70. So here, I'm justing rounding them down
 % to 70 (to avoid index errors)
 
+<<<<<<< HEAD
 %NEEDS LINKTRUNC
+=======
+>>>>>>> 4992a12a2ad1338f7f642b57dbc218984af91dbe
 for linkIndex = 1:length(link_trunc)
     centroid = link_trunc(linkIndex).centroid;
     if (centroid(3) < 70 )
@@ -59,6 +66,9 @@ xlabel("Bone Volume Fraction");
 ylabel("Number of Sub VOI's");
 
 %% 
+<<<<<<< HEAD
 for i = 1:length(node_trunc)
     node_trunc(i).ep = ~(node_trunc(i).ep);
 end 
+=======
+>>>>>>> 4992a12a2ad1338f7f642b57dbc218984af91dbe

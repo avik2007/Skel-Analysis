@@ -32,5 +32,9 @@ for s = 1: length(startingNodes)
         lengthList( ( s - 1 )  * ( length( endingNodes ) )+ e ) = findShortestPathLength(node2,link2,skel,startingNodes(s),endingNodes(e));
     end
 end
+<<<<<<< HEAD
 disp('cats');
+=======
+
+>>>>>>> 4992a12a2ad1338f7f642b57dbc218984af91dbe
 CorrL = mean(lengthList);

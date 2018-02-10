@@ -30,7 +30,11 @@ end %DON'T REMOVE THIS! IT'S NECESSARY
 %instantiates node.parent as 0 for all nodes
 for index = 1:length(node)
     node(index).parent = 0;
+<<<<<<< HEAD
     if (node(index).ep == 1) 
+=======
+    if (node(index).ep == 0) %EDIT 2/8/18 - I just fixed this from 1 to 0, check later
+>>>>>>> 4992a12a2ad1338f7f642b57dbc218984af91dbe
         link(node(index).links).accessibility = 0;
     end
 end

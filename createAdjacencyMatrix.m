@@ -31,7 +31,10 @@ for index = 1:length(link)
 end
 
 A = sparse(A); 
+<<<<<<< HEAD
 %{
+=======
+>>>>>>> 4992a12a2ad1338f7f642b57dbc218984af91dbe
 imagesc(A);
 
 if (val == 1)
@@ -42,5 +45,9 @@ elseif (strcmp(feature,'stress'))
 elseif (strcmp(feature,'thickness'))
     colorbar;
     title('Adjacency Matrix Weighted by Thickness'); 
+<<<<<<< HEAD
 end
 %}
+=======
+end
+>>>>>>> 4992a12a2ad1338f7f642b57dbc218984af91dbe

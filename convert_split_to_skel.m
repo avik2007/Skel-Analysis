@@ -229,7 +229,11 @@ for index = 1:length(link_trunc)
 end
 clear index;
 for index = 1:length(node_trunc)
+<<<<<<< HEAD
     node_trunc(index).ep = ~( length(node_trunc(index).links) > 1 );
+=======
+    node_trunc(index).ep = ( length(node_trunc(index).links) > 1 );
+>>>>>>> 4992a12a2ad1338f7f642b57dbc218984af91dbe
 end
 
 %{

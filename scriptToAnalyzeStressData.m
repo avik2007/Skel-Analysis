@@ -63,7 +63,11 @@ for i = 1:timesteps
     Stress = link_stress_time(:,i);
     figure('Name',horzcat('VOI_701x101y Stress Distribution ', num2str(i)));
     histogram(Stress,edgeStress);
+<<<<<<< HEAD
    
+=======
+    %[NStress,edgesStress] = histcounts(Stress);
+>>>>>>> 4992a12a2ad1338f7f642b57dbc218984af91dbe
     axis([0 max(link_stress_time(:,size(link_stress_time,2))) 0 length(link_trunc)])
     title(strcat("Split9 Stress Distribution: Frame ", num2str(i)));
     xlabel("Stress (MPa)");
@@ -140,7 +144,11 @@ y3 = link_stress_time(orderedStresses(3,2),:);
 
 plot(x,y1,'r--', x,y2,'ko', x,y3,'b:');
 title("Stress Evolution on 3 Max Stressed Link");
+<<<<<<< HEAD
 xlabel("Timesteps (1 second)");
+=======
+xlabel("Timesteps");
+>>>>>>> 4992a12a2ad1338f7f642b57dbc218984af91dbe
 ylabel("Stresses (MPa)");
 legend(horzcat('Link ', num2str(orderedStresses(1,2))), horzcat('Link ', num2str( orderedStresses(2,2)) ), ...
     horzcat('Link ', num2str(orderedStresses(3,2))), 'Location', 'Northwest'); 
@@ -174,7 +182,10 @@ title("Stress Time Derivatives/ Local Volume Fraction Scatterplot");
 xlabel("Local Bone Volume Fraction");
 ylabel("Stress Time Derivatives");
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4992a12a2ad1338f7f642b57dbc218984af91dbe
 %% Plot to show how few links carry the stress of the network
 %Going to make a frame of all the histogram video data
 
@@ -186,6 +197,7 @@ v = VideoWriter('link_stress_time_series.avi') ;
 v.FrameRate = 5;
 open(v);
 for i = 1:timesteps
+<<<<<<< HEAD
     Stress = link_stress_time((orderedStresses(:,2))',i);
     figure('Name',horzcat('VOI_701x101y Stress Distribution ', num2str(i)));
     b = bar(Stress,'b');
@@ -193,6 +205,12 @@ for i = 1:timesteps
     for k = 1:fiftypindex(i,1)
         b.CData(k,:) = [0 1 0];
     end
+=======
+    Stress = link_stress_time(:,i);
+    figure('Name',horzcat('VOI_701x101y Stress Distribution ', num2str(i)));
+    data = link_stress_time(:,i);
+    bar(data,'b');
+>>>>>>> 4992a12a2ad1338f7f642b57dbc218984af91dbe
     axis([0 length(link_trunc) 0 stressLim]);
     title(strcat("Split9 Stress Distribution: Frame ", num2str(i)));
     xlabel("Link");
@@ -201,6 +219,7 @@ for i = 1:timesteps
     writeVideo(v,F(i));
     close(gcf);
 end
+<<<<<<< HEAD
 close(v); 
 
 %% Percentage of links vs Percentage of Stress analysis 
@@ -249,3 +268,6 @@ close(v);
 %}
 %% 
 
+=======
+close(v); 
+>>>>>>> 4992a12a2ad1338f7f642b57dbc218984af91dbe
