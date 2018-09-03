@@ -15,8 +15,8 @@
 
 function plotLocalNetworkParameter(skel,node2,link2,parameter)
 
-addpath('C:\Users\Avik\Documents\Carlson Lab\Bone Project MATLAB code\phi-max-skel2graph3d-matlab-8939088');
-addpath('C:\Users\Avik\Documents\Carlson Lab\Bone Project MATLAB code\TinyAxis');
+addpath('C:\Users\Avik Mondal\Documents\Carlson Lab\Bone Project MATLAB code\phi-max-skel2graph3d-matlab-8939088');
+addpath('C:\Users\Avik Mondal\Documents\Carlson Lab\Bone Project MATLAB code\TinyAxis');
 %specific to Avik's computer only
 w = size(skel,1);
 l = size(skel,2);
@@ -60,7 +60,7 @@ if(length(node2(i).links) > 2)
         title('Local Degree Centrality');
     elseif strcmp(parameter,"closeness")
         colorbar;
-        markerCol = round(99*node2(i).closenessC + 1);
+        markerCol = round(99*node2(i).closeness + 1);
         cvec(1,1) = c(markerCol,1);
         cvec(1,2) = c(markerCol,2);
         cvec(1,3) = c(markerCol,3);
@@ -79,6 +79,27 @@ if(length(node2(i).links) > 2)
         cvec(1,2) = c(markerCol,2);
         cvec(1,3) = c(markerCol,3);
         title('Local Weighted Clustering');
+    elseif strcmp(parameter,"betweenness")
+        colorbar;
+        markerCol = round(99*node2(i).betweenness + 1);
+        cvec(1,1) = c(markerCol,1);
+        cvec(1,2) = c(markerCol,2);
+        cvec(1,3) = c(markerCol,3);
+        title('Local Betweenness Centrality');
+       elseif strcmp(parameter,"eigenvector")
+        colorbar;
+        markerCol = round(99*node2(i).eigenvector + 1);
+        cvec(1,1) = c(markerCol,1);
+        cvec(1,2) = c(markerCol,2);
+        cvec(1,3) = c(markerCol,3);
+        title('Local Eigenvector Centrality'); 
+    elseif strcmp(parameter,"nndegree")
+        colorbar;
+        markerCol = round(99*node2(i).nearestNeighborDegree+ 1);
+        cvec(1,1) = c(markerCol,1);
+        cvec(1,2) = c(markerCol,2);
+        cvec(1,3) = c(markerCol,3);
+        title('Local Nearest Neighbor Degree');
     elseif strcmp(parameter,"subgraphs")
         if ( isfield(node2,'subGraph') )
             spectrum = [node2.subGraph]; %scaling the colors based on number of subgraphs
@@ -133,8 +154,8 @@ if(length(node2(i).links) > 2)
         'Color','k');
     
   
-    if (isfield(node2,'parent'))
-        if (node2(i).parent >= 0)
+    if (isfield(node2,'degreeC'))
+        if (node2(i).degreeC == 2)
             text(y1,x1,z1,['  ' num2str(i)],'FontSize',9,'Color','red');
         end 
     end    

@@ -28,9 +28,9 @@ yULim = max(N(1,2:length(N)))*1.2;
 
 
 axis([2 xULim 0 yULim]);
-title("Node Degree Distribution");
-xlabel("Number of links (k)");
-ylabel("Number of Nodes w/ k links");
+title("Node Degree Distribution", 'FontSize', 14);
+xlabel("Number of links (k)", 'FontSize', 14);
+ylabel("Number of Nodes with k links", 'FontSize', 14);
 
 
 

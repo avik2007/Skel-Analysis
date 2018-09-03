@@ -20,9 +20,15 @@ for index = 1:length(link)
     if strcmp(feature,'stress')
         dataList = [link.finalStress];
         val = link(index).finalStress;%/max(dataList);
+    elseif strcmp(feature,'von mises')
+        dataList = [link.finalvonMises];
+        val = link(index).finalvonMises;
     elseif strcmp(feature,'thickness')
         dataList = [link.avgthickness];
         val = link(index).avgthickness;%/max(dataList);
+    elseif strcmp(feature,'length')
+        dataList = [link.length];
+        val = link(index).length;
     else
         val = 1;
     end
@@ -30,11 +36,11 @@ for index = 1:length(link)
     A(link(index).n2, link(index).n1) = val; 
 end
 
-A = sparse(A); 
-<<<<<<< HEAD
+A = sparse(A);
+end 
 %{
-=======
->>>>>>> 4992a12a2ad1338f7f642b57dbc218984af91dbe
+
+
 imagesc(A);
 
 if (val == 1)
@@ -45,9 +51,8 @@ elseif (strcmp(feature,'stress'))
 elseif (strcmp(feature,'thickness'))
     colorbar;
     title('Adjacency Matrix Weighted by Thickness'); 
-<<<<<<< HEAD
+
 end
 %}
-=======
-end
->>>>>>> 4992a12a2ad1338f7f642b57dbc218984af91dbe
+
+

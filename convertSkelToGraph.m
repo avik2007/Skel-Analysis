@@ -1,6 +1,7 @@
 function [nodeF,linkF] = convertSkelToGraph(skel, THR)
 %THR is a link length threshold
-addpath('C:\Users\avik2\Documents\Carlson Lab\Bone Project MATLAB code\phi-max-skel2graph3d-matlab-8939088');
+%addpath('C:\Users\Avik Mondal\Documents\Carlson Lab\Bone Project MATLAB code\phi-max-skel2graph3d-matlab-8939088');
+addpath('phi-max-skel2graph3d-matlab-8939088');
 w = size(skel,1);
 l = size(skel,2);
 h = size(skel,3);

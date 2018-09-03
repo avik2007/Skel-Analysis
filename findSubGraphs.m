@@ -14,7 +14,7 @@
 function [node2,link2] = findSubGraphs(node,link,skel)  
 %FIND OUT IF YOU CAN CHECK IF THIS IS ON THE PATH (MIGHT SAVE COMPUTING
 %POWER)
-addpath('C:\Users\avik2\Documents\Carlson Lab\Bone Project MATLAB code\Data_Structures\Data Structures\Queues');
+addpath('C:\Users\Avik Mondal\Documents\Carlson Lab\Bone Project MATLAB code\Data_Structures\Data Structures\Queues');
 startNode = 1; %setting up a start node
 
 %setting up a new set of structs to decompose our current one into

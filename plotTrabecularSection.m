@@ -11,10 +11,10 @@
 %--------------------------------------------------------------------------
 function plotTrabecularSection(skeletonBin)
 
-addpath('C:\Users\Avik\Documents\Carlson Lab\Bone Project MATLAB code\phi-max-skeleton3d-matlab-c534cab');
-addpath('C:\Users\Avik\Documents\Carlson Lab\Bone Project MATLAB code\TinyAxis');
+%addpath('C:\Users\Avik Mondal\Documents\Carlson Lab\Bone Project MATLAB code\phi-max-skeleton3d-matlab-c534cab');
+%addpath('C:\Users\Avik Mondal\Documents\Carlson Lab\Bone Project MATLAB code\TinyAxis');
 %skel = Skeleton3D(skeletonBin);
-
+addpath('C:\Users\Avik Mondal\Documents\Carlson Lab\Bone Project MATLAB code\TinyAxis');
 figure();
 col=[.7 .7 .8];
 hiso = patch(isosurface(skeletonBin,0),'FaceColor',col,'EdgeColor','none');

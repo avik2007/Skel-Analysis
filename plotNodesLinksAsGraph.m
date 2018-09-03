@@ -16,8 +16,8 @@
 
 function plotNodesLinksAsGraph(skel,node2,link2)
 
-addpath('C:\Users\avik2\Documents\Carlson Lab\Bone Project MATLAB code\phi-max-skel2graph3d-matlab-8939088');
-addpath('C:\Users\avik2\Documents\Carlson Lab\Bone Project MATLAB code\TinyAxis');
+addpath('C:\Users\Avik Mondal\Documents\Carlson Lab\Bone Project MATLAB code\phi-max-skel2graph3d-matlab-8939088');
+addpath('C:\Users\Avik Mondal\Documents\Carlson Lab\Bone Project MATLAB code\TinyAxis');
 %specific to Avik's computer only
 w = size(skel,1);
 l = size(skel,2);

@@ -11,16 +11,17 @@
 %--------------------------------------------------------------------------
 function plot3DSkeletonOverlay(skeletonBin)
 
-addpath('C:\Users\avik2\Documents\Carlson Lab\Bone Project MATLAB code\phi-max-skeleton3d-matlab-c534cab');
+%addpath('C:\Users\avik2\Documents\Carlson Lab\Bone Project MATLAB code\phi-max-skeleton3d-matlab-c534cab');
+addpath('C:\Users\Avik Mondal\Documents\Carlson Lab\Bone Project MATLAB code\phi-max-skeleton3d-matlab-c534cab');
 skel = Skeleton3D(skeletonBin);
 
 figure();
 col=[.7 .7 .8];
-hiso = patch(isosurface(skeletonBin,0),'FaceColor',col,'EdgeColor','none');
+%hiso = patch(isosurface(skeletonBin,0),'FaceColor',col,'EdgeColor','none');
 hiso2 = patch(isocaps(skeletonBin,0),'FaceColor',col,'EdgeColor','none');
 axis equal;axis off;
 lighting phong;
-isonormals(skeletonBin,hiso);
+isonormals(skeletonBin,hiso2);
 alpha(0.5);
 set(gca,'DataAspectRatio',[1 1 1])
 camlight;

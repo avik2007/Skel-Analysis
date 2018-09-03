@@ -6,7 +6,7 @@ res = 0.037; % resolution (mm)
 
 nodet = struct2table(node);
 linkt = struct2table(link);
-nodemat = [(1:height(nodet))', res*nodet.com x, res*nodet.comy, res*nodet.comz];
+nodemat = [(1:height(nodet))', res*nodet.comx, res*nodet.comy, res*nodet.comz];
 nodemat = sortrows(nodemat,4);
 nodemat = [(1:length(nodemat))',nodemat];
 
@@ -61,12 +61,20 @@ newNodes(:,2) = [];
 newLinks = sortrows(newLinks,2);
 newLinks(:,1) = (1:length(newLinks))';
 
-nodemat = [ newNodes zeros(length(newNodes),1)];
+nodemat = [ newNodes, zeros(length(newNodes),1), (1:length(newNodes))' ];
 linkmat = newLinks;
+
+%code snippet for finding cross section areas from chantal
+vec = nodemat(linkmat(toplinks,3),2:4) - nodemat(linkmat(toplinks,2),2:4); % link vector
+angle_wrt_vertical = acos(vec(:,3)./sqrt(vec(:,1).^2+vec(:,2).^2+vec(:,3).^2)); % angle wrt vertical
+diameters = linkmat(toplinks,4) % diameter
+area = pi*(diameters.^2)./cos(angle_wrt_vertical); % cross-sectional area
+area(vec(:,3)==0) = diameters(vec(:,3)==0).*sqrt(vec(vec(:,3)==0,1).^2+vec(vec(:,3)==0,2).^2); % if the links lie in the x-y plane then the area needs to be calculated separately
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % convert truncated network into a struct skeleton (what I'm used to
 % handling)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%{
 node_trunc = struct([]);
 for index = 1:length(nodemat)
     node_trunc(index).comx = nodemat(index,2)/res;
@@ -83,7 +91,7 @@ for index = 1:length(linkmat)
     link_trunc(index).avgthickness = linkmat(index,4)/res;
 end
 clear index;
-
+%}
 
 
 %clearvars -except nodemat linkmat linkt nodet res
@@ -118,8 +126,9 @@ clear index;
 % linkmat(:,1) = (1:length(linkmat))';
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%split into 9
+%% split into 9
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 splitnum = 9;
 maxthicknesses = [linkmat(:,5)*1.2,linkmat(:,4)*1.25];
 linkmat = linkmat(:,1:4);
@@ -131,15 +140,15 @@ for i = 1:length(linkmat)
     %preveding line is irrelevant
     maxthickness = min(maxthicknesses(i,:));
     meanthickness = linkmat(i,4);%linkt.avgthickness(i);
-     minthickness = cellfun(@min,linkt.thicknesses(i));
-    nodemat = [nodemat; length(nodemat)+1, nodemat(linkmat(i,2),2:4)+linkvec/9, i];
-    nodemat = [nodemat; length(nodemat)+1, nodemat(linkmat(i,2),2:4)+2*linkvec/9, i];
-    nodemat = [nodemat; length(nodemat)+1, nodemat(linkmat(i,2),2:4)+linkvec/3, i];
-    nodemat = [nodemat; length(nodemat)+1, nodemat(linkmat(i,2),2:4)+4*linkvec/9, i];
-    nodemat = [nodemat; length(nodemat)+1, nodemat(linkmat(i,2),2:4)+5*linkvec/9, i];
-    nodemat = [nodemat; length(nodemat)+1, nodemat(linkmat(i,3),2:4)-linkvec/3, i];
-    nodemat = [nodemat; length(nodemat)+1, nodemat(linkmat(i,3),2:4)-2*linkvec/9, i];
-    nodemat = [nodemat; length(nodemat)+1, nodemat(linkmat(i,3),2:4)-linkvec/9, i];
+    minthickness = cellfun(@min,linkt.thicknesses(i));
+    nodemat = [nodemat; length(nodemat)+1, nodemat(linkmat(i,2),2:4)+linkvec/9, i, length(nodemat)];
+    nodemat = [nodemat; length(nodemat)+1, nodemat(linkmat(i,2),2:4)+2*linkvec/9, i, length(nodemat)];
+    nodemat = [nodemat; length(nodemat)+1, nodemat(linkmat(i,2),2:4)+linkvec/3, i, length(nodemat)];
+    nodemat = [nodemat; length(nodemat)+1, nodemat(linkmat(i,2),2:4)+4*linkvec/9, i, length(nodemat)];
+    nodemat = [nodemat; length(nodemat)+1, nodemat(linkmat(i,2),2:4)+5*linkvec/9, i, length(nodemat)];
+    nodemat = [nodemat; length(nodemat)+1, nodemat(linkmat(i,3),2:4)-linkvec/3, i, length(nodemat)];
+    nodemat = [nodemat; length(nodemat)+1, nodemat(linkmat(i,3),2:4)-2*linkvec/9, i, length(nodemat)];
+    nodemat = [nodemat; length(nodemat)+1, nodemat(linkmat(i,3),2:4)-linkvec/9, i, length(nodemat)];
     
     newlinks((9*(i-1)+1):(9*i),:) = horzcat(((9*(i-1)+1):(9*i))',[linkmat(i,2);((length(nodemat)-7):length(nodemat))'],...
         [((length(nodemat)-7):length(nodemat))';linkmat(i,3)],...
@@ -147,7 +156,12 @@ for i = 1:length(linkmat)
 end
 linkmat = newlinks;%vertcat(linkmat,newlinks); %this commented out portion leads to redundancies
 
-%nodemat = sortrows(nodemat,4);
+nodemat = sortrows(nodemat,4);
+% real node indicator indicates which nodes were manufactured for abaqus
+% (1) and which nodes were part of the original skeleton (0)
+realNodeIndicator = nodemat(:,6);
+
+  
 nodemat = [(1:length(nodemat))',nodemat];
 
 %map = containers.Map(nodemat(:,2)',nodemat(:,1)');
@@ -161,6 +175,7 @@ linkmat(:,1) = (1:length(linkmat))';
 bottomNodes = find(nodemat(:,4) <= (min(nodemat(:,4))+0.1));
 topNodes = find(nodemat(:,4) >= (max(nodemat(:,4))));
 
+%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %split into 12
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -208,9 +223,11 @@ linkmat = linkmat(:,1:4);
  bottomNodes = find(nodemat(:,4) <= (min(nodemat(:,4))+0.1));
  topNodes = find(nodemat(:,4) >= (max(nodemat(:,4))));
  %}
+%%
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  % converting back to a skeleton
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%{
 link_split = struct([]);
 for index = 1:length(linkmat)
     link_split(index).n1 = linkmat(index,2);
@@ -229,13 +246,9 @@ for index = 1:length(link_trunc)
 end
 clear index;
 for index = 1:length(node_trunc)
-<<<<<<< HEAD
     node_trunc(index).ep = ~( length(node_trunc(index).links) > 1 );
-=======
-    node_trunc(index).ep = ( length(node_trunc(index).links) > 1 );
->>>>>>> 4992a12a2ad1338f7f642b57dbc218984af91dbe
 end
-
+%}
 %{
 node_split = struct([]);
 for index = 1:length(node_trunc)
@@ -258,9 +271,12 @@ end
 %{
 Weighted average of thicknesses becomes the link's stress (by area
 fraction) %how does this work? get equation from Ahmed
+
+March update - max stress on the link becomes the link's stress
 %}
-load('workspace_split9_new_VOI_701x101y_stresses_data.mat')
-final_stresses = stress_data(:,26);
+%laad('workspace_split9_new_VOI_701x101y_stresses_data.mat')
+%{
+final_stresses = stress_data(:,101);
 
 for index1 = 0:length(link_trunc)-1
     weight = 0; 
@@ -270,15 +286,17 @@ for index1 = 0:length(link_trunc)-1
             weight = final_stresses(combIndex, 1);
         end
     end
-    link_trunc(index1+1).finalStress = weight;
+    %link_trunc(index1+1).finalStress = weight;
+    link_trunc(index1+1).finalvonMises = weight;
 end
-
+%}
 %% Processing all the stress data as above (making a proper time series)
 %this stress time series data will go into a video
 %additionally, this compresses all the abaqus link data to the graph link
 %data
+ 
 %load('workspace_split9_new_VOI_701x101y_stresses_data.mat');
-
+%{
 link_stress_time = zeros(length(link_trunc), size(stress_data,2));
 for timestep = 1:size(stress_data,2)
     combIndex = 0;
@@ -296,3 +314,4 @@ for timestep = 1:size(stress_data,2)
         link_stress_time(index1+1,timestep) = maxStress;
     end
 end
+%}

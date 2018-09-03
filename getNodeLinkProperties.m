@@ -17,14 +17,13 @@
 % of the set (instead of by the number of nodes)
 %--------------------------------------------------------------------------
 function [nodeWithProperties,linkWithProperties] = getNodeLinkProperties(node,link)
-
 nodeWithProperties = node;
 linkWithProperties = link;
 %if ~(isfield(nodeWithProperties,'closenessC'))
 %    geo = findGeodesicMatrix(node,link,skel);
 %end
 maxDegree = 0;
-%maxClustering = 0;
+maxClustering = 0;
 %maxCloseness = 0;
 maxNodeStrength = 0;
 maxNNDegree = 0;
@@ -51,10 +50,10 @@ for index1 = 1:length(node)
     end
         
     %for calculating clustering coefficient normalized by max clustering
-    %nodeWithProperties(index1).clusteringC = findLocalClustering(node,index1);
-    %if ( nodeWithProperties(index1).clusteringC > maxClustering )
-    %    maxClustering = nodeWithProperties(index1).clusteringC;
-    %end    
+    nodeWithProperties(index1).clusteringC = findLocalClustering(node,index1);
+    if ( nodeWithProperties(index1).clusteringC > maxClustering )
+        maxClustering = nodeWithProperties(index1).clusteringC;
+    end    
     % for calculating closeness centrality normalized by max closeness
     %nodeWithProperties(index1).closenessC = findLocalClosenessCentrality(geo,index1);
     %if ( nodeWithProperties(index1).closenessC > maxCloseness )
@@ -98,7 +97,7 @@ end
 for index2 = 1:length(node)
     
     nodeWithProperties(index2).degreeC = ( nodeWithProperties(index2).degreeC / maxDegree );
-    %nodeWithProperties(index2).clusteringC = ( nodeWithProperties(index2).clusteringC / maxClustering );
+    nodeWithProperties(index2).clusteringC = ( nodeWithProperties(index2).clusteringC / maxClustering );
     %nodeWithProperties(index2).closenessC = ( nodeWithProperties(index2).closenessC / maxCloseness );
     
     nodeWithProperties(index2).strength = ( nodeWithProperties(index2).strength / maxNodeStrength );
@@ -118,11 +117,14 @@ end
 %for index4 = 1:length(node)
 %    nodeWithProperties(index4).weightedCC = ( nodeWithProperties(index4).weightedCC / maxWeightedClustering );
 %end
+%nodeWithProperties = findNodeCentrality(nodeWithProperties,linkWithProperties);
+%linkWithProperties = findLinkLength(nodeWithProperties,linkWithProperties);
 
 
-
+%{
 maxLinkLength = 0; 
 for index5 = 1:length(link)
+    
     linkWithProperties(index5).length = length(link(index5).point);
     if ( linkWithProperties(index5).length > maxLinkLength )
         maxLinkLength = linkWithProperties(index5).length;
@@ -133,3 +135,4 @@ linkWithProperties(1).maxLength = maxLinkLength;
 for index6 = 1:length(link)
     linkWithProperties(index6).length = ( linkWithProperties(index6).length / maxLinkLength );
 end
+%}

@@ -14,7 +14,7 @@
 %http://www.mathworks.com/matlabcentral/fileexchange/45123-data-structures?focused=3805777&tab=function
 %--------------------------------------------------------------------------
 function gVeci = findGeodesicVector(node,link,nodei)
-%addpath('C:\Users\Avik\Documents\Carlson Lab\Bone Project MATLAB code\Data_Structures\Data Structures\Queues');
+addpath('C:\Users\Avik Mondal\Documents\Carlson Lab\Bone Project MATLAB code\Data_Structures\Data Structures\Queues');
 gVeci = zeros(1,length(node));
 visitedNodes = zeros(1,length(node));
 

@@ -33,6 +33,6 @@ yULim = max(N(1,1:length(N)))*1.2;
 
 
 axis([0.1 1 0 yULim]);
-title("Node Strength Distribution");
-xlabel("Strength of Nodes (S)");
-ylabel("Number of Nodes w/ Strength S");
+title("Weighted Node Degree Distribution", 'FontSize', 14);
+xlabel("Weighted Degree of Nodes (W)",'FontSize', 14);
+ylabel("Number of Nodes with Weight W ",'FontSize', 14);

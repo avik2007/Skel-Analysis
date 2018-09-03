@@ -1,8 +1,10 @@
+
 % script to write nodes and links to inp file
 % cuts out only the part between 0.1 and 2.7 mm
 res = 0.037; % resolution (mm)
-load ~/Documents/bone-networks/graphVOI_701x101y_new.mat
-
+%load ~/Documents/bone-networks/graphVOI_701x101y_new.mat
+load('C:\Users\Avik Mondal\Documents\Carlson Lab\Bone Project Data\VOI_bulk_graph_analysis\Bulk_Graph_Analysis_GRAPHS\graphVOI_201x001y.mat');
+voiname = 'graph201x001y'; 
 nodet = struct2table(node);
 linkt = struct2table(link);
 nodemat = [(1:height(nodet))', res*nodet.comx, res*nodet.comy, res*nodet.comz];
@@ -21,6 +23,27 @@ endNodes = arrayfun(@(x) map(x), linkmat(:,3));
 linkmat(:,2:3) = [startNodes endNodes];
 nodemat(:,2) = [];
 
+
+bottomNodes = find(nodemat(:,4) <= (min(nodemat(:,4))+0.1));
+topNodes = find(nodemat(:,4) >= (max(nodemat(:,4))));
+
+node_trunc = struct([]);
+for index = 1:length(nodemat)
+    node_trunc(index).comx = nodemat(index,2)/res;
+    node_trunc(index).comy = nodemat(index,3)/res;
+    node_trunc(index).comz = nodemat(index,4)/res;
+    node_trunc(index).conn = [];
+    node_trunc(index).links = [];
+end
+
+link_trunc = struct([]);
+for index = 1:length(linkmat)
+    link_trunc(index).n1 = linkmat(index,2);
+    link_trunc(index).n2 = linkmat(index,3);
+    link_trunc(index).avgthickness = linkmat(index,4)/res;
+end
+clear index;
+%{
 % cut everything above 2.7 and below 0.1
 toppt = 2.7;
 bottompt = 0.1;
@@ -170,10 +193,12 @@ topNodes = find(nodemat(:,4) >= (max(nodemat(:,4))));
 % 
 % bottomNodes = find(nodemat(:,4) <= (min(nodemat(:,4))+0.1));
 % topNodes = find(nodemat(:,4) >= (max(nodemat(:,4))));
+%}
 
 %% Create .inp file
 
-fid = fopen('~/Dropbox/abaqus/VOI_701x101y_lslice_split9_test.inp','w');
+%fid = fopen('~/Dropbox/abaqus/VOI_701x101y_lslice_split9_test.inp','w');
+fid = fopen(horzcat('C:\Users\Avik Mondal\Documents\Carlson Lab\Bone Project Data\VOI_bulk_graph_analysis\Bulk_Graph_Analysis_ABAQUS_INP\',voiname, 'inp'),'w');
 % first add the heading
 fprintf(fid,'*Heading\nUnits: millimetres(mm)\n');
 
@@ -281,3 +306,6 @@ fprintf(fid,'*End Step');
 
 
 fclose(fid);
+
+clearvars -except node_trunc link_trunc voiname
+save(horzcat('C:\Users\Avik Mondal\Documents\Carlson Lab\Bone Project Data\VOI_bulk_graph_analysis\Bulk_Graph_Analysis_TRUNC_GRAPHS\TRUNC', voiname));

@@ -23,7 +23,7 @@
 %--------------------------------------------------------------------------
 function immat = loadImageSequence(folder, prefix ,firstIndex, filetype,x0,y0,xdim,ydim,zdim, sigfigs)    
 
-addpath('C:\Users\avik2\Documents\Carlson Lab\Bone Project MATLAB code');
+%addpath('C:\Users\Avik Mondal\Documents\Carlson Lab\Bone Project MATLAB code');
 imagefiles = dir(char(strcat(folder,"*.", filetype)));
 
 
